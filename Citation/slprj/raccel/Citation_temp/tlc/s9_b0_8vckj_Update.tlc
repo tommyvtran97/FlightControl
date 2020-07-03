@@ -1,0 +1,60 @@
+%implements s9_b0_8vckj_Update "C"
+
+%function UpdateForTID(block, system, tid) Output
+%if tid == 0
+%assign ::GlobalCurrentTID = 0
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+real_T (*lastU)[12];
+int32_T i;
+%closefile localVarDecl
+%assign tlcUpdateFcnOfS9B31 = OpaqueTLCBlockFcn("Update", 9, 31, 0, 4, 0)
+if (%<(SLibCGIRIsSampleHit(1, 9))>) {
+    rtDW.nxx2p3acnt = rtB.byzojvg4uo;
+}
+if (rtDW.dsgay5hnp1 == %<LibGetMathConstant(LibRealNonFinite("inf"), FcnGetDataTypeIdFromName("double"))>) {
+    rtDW.dsgay5hnp1 = %<(SLibCG_SE(LibGetT()))>;
+    lastU = &rtDW.bbgmj2i4n1;
+} else if (rtDW.alhqvpkbw0 == %<LibGetMathConstant(LibRealNonFinite("inf"), FcnGetDataTypeIdFromName("double"))>) {
+    rtDW.alhqvpkbw0 = %<(SLibCG_SE(LibGetT()))>;
+    lastU = &rtDW.gsp3a3zz2c;
+} else if (rtDW.dsgay5hnp1 < rtDW.alhqvpkbw0) {
+    rtDW.dsgay5hnp1 = %<(SLibCG_SE(LibGetT()))>;
+    lastU = &rtDW.bbgmj2i4n1;
+} else {
+    rtDW.alhqvpkbw0 = %<(SLibCG_SE(LibGetT()))>;
+    lastU = &rtDW.gsp3a3zz2c;
+}
+for (i = 0; i < 12; i++) {
+    (*lastU)[i] = rtB.odfokx2doz[i];
+}
+%<tlcUpdateFcnOfS9B31>\
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedUpdateLocalVars", localVarDecl)>
+%assign ::GlobalCurrentTID = []
+%endif
+%if tid == 2
+%assign ::GlobalCurrentTID = 2
+%assign ::GlobalCurrentTID = []
+%endif
+%endfunction
+%function UpdateFcnProtoTypeForTID(block, system, tid) Output
+%if tid == 0
+%assign ::GlobalCurrentTID = 0
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Update0(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 4, fcnProtoType)>
+%assign ::GlobalCurrentTID = []
+%endif
+%if tid == 2
+%assign ::GlobalCurrentTID = 2
+%assign ::GlobalCurrentTID = []
+%endif
+%endfunction

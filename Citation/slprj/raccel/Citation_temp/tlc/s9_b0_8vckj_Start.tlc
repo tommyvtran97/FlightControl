@@ -1,0 +1,131 @@
+%implements s9_b0_8vckj_Start "C"
+
+%function Start(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%assign tlcSetupRuntimeResourcesFcnOfS9B0 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 0, 0, 0, 0)
+%assign tlcSetupRuntimeResourcesFcnOfS9B1 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 1, 0, 0, 1)
+%assign tlcSetupRuntimeResourcesFcnOfS9B3 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 3, 0, 0, 2)
+%assign tlcSetupRuntimeResourcesFcnOfS9B5 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 5, 0, 0, 3)
+%assign tlcSetupRuntimeResourcesFcnOfS9B6 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 6, 0, 0, 4)
+%assign tlcSetupRuntimeResourcesFcnOfS9B7 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 7, 0, 0, 5)
+%assign tlcSetupRuntimeResourcesFcnOfS9B8 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 8, 0, 0, 6)
+%assign tlcSetupRuntimeResourcesFcnOfS9B9 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 9, 0, 0, 7)
+%assign tlcSetupRuntimeResourcesFcnOfS9B10 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 10, 0, 0, 8)
+%assign tlcSetupRuntimeResourcesFcnOfS9B11 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 11, 0, 0, 9)
+%assign tlcSetupRuntimeResourcesFcnOfS9B12 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 12, 0, 0, 10)
+%assign tlcSetupRuntimeResourcesFcnOfS9B13 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 13, 0, 0, 11)
+%assign tlcSetupRuntimeResourcesFcnOfS9B14 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 14, 0, 0, 12)
+%assign tlcSetupRuntimeResourcesFcnOfS9B15 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 15, 0, 0, 13)
+%assign tlcSetupRuntimeResourcesFcnOfS9B16 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 16, 0, 0, 14)
+%assign tlcSetupRuntimeResourcesFcnOfS9B19 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 19, 0, 0, 15)
+%assign tlcSetupRuntimeResourcesFcnOfS9B21 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 21, 0, 0, 16)
+%assign tlcSetupRuntimeResourcesFcnOfS9B22 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 22, 0, 0, 17)
+%assign tlcSetupRuntimeResourcesFcnOfS9B23 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 23, 0, 0, 18)
+%assign tlcSetupRuntimeResourcesFcnOfS9B24 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 24, 0, 0, 19)
+%assign tlcSetupRuntimeResourcesFcnOfS9B25 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 25, 0, 0, 20)
+%assign tlcSetupRuntimeResourcesFcnOfS9B26 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 26, 0, 0, 21)
+%assign tlcSetupRuntimeResourcesFcnOfS9B27 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 27, 0, 0, 22)
+%assign tlcSetupRuntimeResourcesFcnOfS9B28 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 28, 0, 0, 23)
+%assign tlcSetupRuntimeResourcesFcnOfS9B29 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 29, 0, 0, 24)
+%assign tlcSetupRuntimeResourcesFcnOfS9B31 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 31, 0, 0, 25)
+%assign tlcSetupRuntimeResourcesFcnOfS9B32 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 32, 0, 0, 26)
+%assign tlcSetupRuntimeResourcesFcnOfS9B33 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 33, 0, 0, 27)
+%assign tlcSetupRuntimeResourcesFcnOfS9B34 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 34, 0, 0, 28)
+%assign tlcSetupRuntimeResourcesFcnOfS9B35 = OpaqueTLCBlockFcn("SetupRuntimeResources", 9, 35, 0, 0, 29)
+%assign tlcStartFcnOfS9B0 = OpaqueTLCBlockFcn("Start", 9, 0, 0, 0, 30)
+%assign tlcStartFcnOfS9B1 = OpaqueTLCBlockFcn("Start", 9, 1, 0, 0, 31)
+%assign tlcStartFcnOfS9B3 = OpaqueTLCBlockFcn("Start", 9, 3, 0, 0, 32)
+%assign tlcStartFcnOfS9B5 = OpaqueTLCBlockFcn("Start", 9, 5, 0, 0, 33)
+%assign tlcStartFcnOfS9B6 = OpaqueTLCBlockFcn("Start", 9, 6, 0, 0, 34)
+%assign tlcStartFcnOfS9B7 = OpaqueTLCBlockFcn("Start", 9, 7, 0, 0, 35)
+%assign tlcStartFcnOfS9B8 = OpaqueTLCBlockFcn("Start", 9, 8, 0, 0, 36)
+%assign tlcStartFcnOfS9B9 = OpaqueTLCBlockFcn("Start", 9, 9, 0, 0, 37)
+%assign tlcStartFcnOfS9B10 = OpaqueTLCBlockFcn("Start", 9, 10, 0, 0, 38)
+%assign tlcStartFcnOfS9B11 = OpaqueTLCBlockFcn("Start", 9, 11, 0, 0, 39)
+%assign tlcStartFcnOfS9B12 = OpaqueTLCBlockFcn("Start", 9, 12, 0, 0, 40)
+%assign tlcStartFcnOfS9B13 = OpaqueTLCBlockFcn("Start", 9, 13, 0, 0, 41)
+%assign tlcStartFcnOfS9B14 = OpaqueTLCBlockFcn("Start", 9, 14, 0, 0, 42)
+%assign tlcStartFcnOfS9B15 = OpaqueTLCBlockFcn("Start", 9, 15, 0, 0, 43)
+%assign tlcStartFcnOfS9B16 = OpaqueTLCBlockFcn("Start", 9, 16, 0, 0, 44)
+%assign tlcStartFcnOfS9B19 = OpaqueTLCBlockFcn("Start", 9, 19, 0, 0, 45)
+%assign tlcStartFcnOfS9B21 = OpaqueTLCBlockFcn("Start", 9, 21, 0, 0, 46)
+%assign tlcStartFcnOfS9B22 = OpaqueTLCBlockFcn("Start", 9, 22, 0, 0, 47)
+%assign tlcStartFcnOfS9B23 = OpaqueTLCBlockFcn("Start", 9, 23, 0, 0, 48)
+%assign tlcStartFcnOfS9B24 = OpaqueTLCBlockFcn("Start", 9, 24, 0, 0, 49)
+%assign tlcStartFcnOfS9B25 = OpaqueTLCBlockFcn("Start", 9, 25, 0, 0, 50)
+%assign tlcStartFcnOfS9B26 = OpaqueTLCBlockFcn("Start", 9, 26, 0, 0, 51)
+%assign tlcStartFcnOfS9B27 = OpaqueTLCBlockFcn("Start", 9, 27, 0, 0, 52)
+%assign tlcStartFcnOfS9B28 = OpaqueTLCBlockFcn("Start", 9, 28, 0, 0, 53)
+%assign tlcStartFcnOfS9B29 = OpaqueTLCBlockFcn("Start", 9, 29, 0, 0, 54)
+%assign tlcStartFcnOfS9B31 = OpaqueTLCBlockFcn("Start", 9, 31, 0, 0, 55)
+%assign tlcStartFcnOfS9B34 = OpaqueTLCBlockFcn("Start", 9, 34, 0, 0, 56)
+%<tlcSetupRuntimeResourcesFcnOfS9B0>\
+%<tlcSetupRuntimeResourcesFcnOfS9B1>\
+%<tlcSetupRuntimeResourcesFcnOfS9B3>\
+%<tlcSetupRuntimeResourcesFcnOfS9B5>\
+%<tlcSetupRuntimeResourcesFcnOfS9B6>\
+%<tlcSetupRuntimeResourcesFcnOfS9B7>\
+%<tlcSetupRuntimeResourcesFcnOfS9B8>\
+%<tlcSetupRuntimeResourcesFcnOfS9B9>\
+%<tlcSetupRuntimeResourcesFcnOfS9B10>\
+%<tlcSetupRuntimeResourcesFcnOfS9B11>\
+%<tlcSetupRuntimeResourcesFcnOfS9B12>\
+%<tlcSetupRuntimeResourcesFcnOfS9B13>\
+%<tlcSetupRuntimeResourcesFcnOfS9B14>\
+%<tlcSetupRuntimeResourcesFcnOfS9B15>\
+%<tlcSetupRuntimeResourcesFcnOfS9B16>\
+%<tlcSetupRuntimeResourcesFcnOfS9B19>\
+%<tlcSetupRuntimeResourcesFcnOfS9B21>\
+%<tlcSetupRuntimeResourcesFcnOfS9B22>\
+%<tlcSetupRuntimeResourcesFcnOfS9B23>\
+%<tlcSetupRuntimeResourcesFcnOfS9B24>\
+%<tlcSetupRuntimeResourcesFcnOfS9B25>\
+%<tlcSetupRuntimeResourcesFcnOfS9B26>\
+%<tlcSetupRuntimeResourcesFcnOfS9B27>\
+%<tlcSetupRuntimeResourcesFcnOfS9B28>\
+%<tlcSetupRuntimeResourcesFcnOfS9B29>\
+%<tlcSetupRuntimeResourcesFcnOfS9B31>\
+%<tlcSetupRuntimeResourcesFcnOfS9B32>\
+%<tlcSetupRuntimeResourcesFcnOfS9B33>\
+%<tlcSetupRuntimeResourcesFcnOfS9B34>\
+%<tlcSetupRuntimeResourcesFcnOfS9B35>\
+%<tlcStartFcnOfS9B0>\
+%<tlcStartFcnOfS9B1>\
+%<tlcStartFcnOfS9B3>\
+%<tlcStartFcnOfS9B5>\
+%<tlcStartFcnOfS9B6>\
+%<tlcStartFcnOfS9B7>\
+%<tlcStartFcnOfS9B8>\
+%<tlcStartFcnOfS9B9>\
+%<tlcStartFcnOfS9B10>\
+%<tlcStartFcnOfS9B11>\
+%<tlcStartFcnOfS9B12>\
+%<tlcStartFcnOfS9B13>\
+%<tlcStartFcnOfS9B14>\
+%<tlcStartFcnOfS9B15>\
+%<tlcStartFcnOfS9B16>\
+%<tlcStartFcnOfS9B19>\
+%<tlcStartFcnOfS9B21>\
+%<tlcStartFcnOfS9B22>\
+%<tlcStartFcnOfS9B23>\
+%<tlcStartFcnOfS9B24>\
+%<tlcStartFcnOfS9B25>\
+%<tlcStartFcnOfS9B26>\
+%<tlcStartFcnOfS9B27>\
+%<tlcStartFcnOfS9B28>\
+%<tlcStartFcnOfS9B29>\
+%<tlcStartFcnOfS9B31>\
+%<tlcStartFcnOfS9B34>\
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function StartFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Start(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 0, fcnProtoType)>
+%endfunction

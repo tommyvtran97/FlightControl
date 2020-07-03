@@ -1,0 +1,125 @@
+%implements s9_b0_8vckj_Terminate "C"
+
+%function Terminate(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%assign tlcTerminateFcnOfS9B0 = OpaqueTLCBlockFcn("Terminate", 9, 0, 0, 7, 0)
+%assign tlcTerminateFcnOfS9B1 = OpaqueTLCBlockFcn("Terminate", 9, 1, 0, 7, 1)
+%assign tlcTerminateFcnOfS9B3 = OpaqueTLCBlockFcn("Terminate", 9, 3, 0, 7, 2)
+%assign tlcTerminateFcnOfS9B5 = OpaqueTLCBlockFcn("Terminate", 9, 5, 0, 7, 3)
+%assign tlcTerminateFcnOfS9B6 = OpaqueTLCBlockFcn("Terminate", 9, 6, 0, 7, 4)
+%assign tlcTerminateFcnOfS9B7 = OpaqueTLCBlockFcn("Terminate", 9, 7, 0, 7, 5)
+%assign tlcTerminateFcnOfS9B8 = OpaqueTLCBlockFcn("Terminate", 9, 8, 0, 7, 6)
+%assign tlcTerminateFcnOfS9B9 = OpaqueTLCBlockFcn("Terminate", 9, 9, 0, 7, 7)
+%assign tlcTerminateFcnOfS9B10 = OpaqueTLCBlockFcn("Terminate", 9, 10, 0, 7, 8)
+%assign tlcTerminateFcnOfS9B11 = OpaqueTLCBlockFcn("Terminate", 9, 11, 0, 7, 9)
+%assign tlcTerminateFcnOfS9B12 = OpaqueTLCBlockFcn("Terminate", 9, 12, 0, 7, 10)
+%assign tlcTerminateFcnOfS9B13 = OpaqueTLCBlockFcn("Terminate", 9, 13, 0, 7, 11)
+%assign tlcTerminateFcnOfS9B14 = OpaqueTLCBlockFcn("Terminate", 9, 14, 0, 7, 12)
+%assign tlcTerminateFcnOfS9B15 = OpaqueTLCBlockFcn("Terminate", 9, 15, 0, 7, 13)
+%assign tlcTerminateFcnOfS9B16 = OpaqueTLCBlockFcn("Terminate", 9, 16, 0, 7, 14)
+%assign tlcTerminateFcnOfS9B19 = OpaqueTLCBlockFcn("Terminate", 9, 19, 0, 7, 15)
+%assign tlcTerminateFcnOfS9B21 = OpaqueTLCBlockFcn("Terminate", 9, 21, 0, 7, 16)
+%assign tlcTerminateFcnOfS9B22 = OpaqueTLCBlockFcn("Terminate", 9, 22, 0, 7, 17)
+%assign tlcTerminateFcnOfS9B23 = OpaqueTLCBlockFcn("Terminate", 9, 23, 0, 7, 18)
+%assign tlcTerminateFcnOfS9B24 = OpaqueTLCBlockFcn("Terminate", 9, 24, 0, 7, 19)
+%assign tlcTerminateFcnOfS9B25 = OpaqueTLCBlockFcn("Terminate", 9, 25, 0, 7, 20)
+%assign tlcTerminateFcnOfS9B26 = OpaqueTLCBlockFcn("Terminate", 9, 26, 0, 7, 21)
+%assign tlcTerminateFcnOfS9B27 = OpaqueTLCBlockFcn("Terminate", 9, 27, 0, 7, 22)
+%assign tlcTerminateFcnOfS9B28 = OpaqueTLCBlockFcn("Terminate", 9, 28, 0, 7, 23)
+%assign tlcTerminateFcnOfS9B29 = OpaqueTLCBlockFcn("Terminate", 9, 29, 0, 7, 24)
+%assign tlcTerminateFcnOfS9B31 = OpaqueTLCBlockFcn("Terminate", 9, 31, 0, 7, 25)
+%assign tlcTerminateFcnOfS9B34 = OpaqueTLCBlockFcn("Terminate", 9, 34, 0, 7, 26)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B0 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 0, 0, 7, 27)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B1 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 1, 0, 7, 28)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B3 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 3, 0, 7, 29)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B5 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 5, 0, 7, 30)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B6 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 6, 0, 7, 31)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B7 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 7, 0, 7, 32)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B8 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 8, 0, 7, 33)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B9 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 9, 0, 7, 34)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B10 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 10, 0, 7, 35)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B11 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 11, 0, 7, 36)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B12 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 12, 0, 7, 37)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B13 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 13, 0, 7, 38)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B14 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 14, 0, 7, 39)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B15 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 15, 0, 7, 40)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B16 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 16, 0, 7, 41)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B19 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 19, 0, 7, 42)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B21 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 21, 0, 7, 43)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B22 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 22, 0, 7, 44)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B23 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 23, 0, 7, 45)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B24 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 24, 0, 7, 46)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B25 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 25, 0, 7, 47)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B26 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 26, 0, 7, 48)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B27 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 27, 0, 7, 49)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B28 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 28, 0, 7, 50)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B29 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 29, 0, 7, 51)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B31 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 31, 0, 7, 52)
+%assign tlcCleanupRuntimeResourcesFcnOfS9B34 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 9, 34, 0, 7, 53)
+%<tlcTerminateFcnOfS9B0>\
+%<tlcTerminateFcnOfS9B1>\
+%<tlcTerminateFcnOfS9B3>\
+%<tlcTerminateFcnOfS9B5>\
+%<tlcTerminateFcnOfS9B6>\
+%<tlcTerminateFcnOfS9B7>\
+%<tlcTerminateFcnOfS9B8>\
+%<tlcTerminateFcnOfS9B9>\
+%<tlcTerminateFcnOfS9B10>\
+%<tlcTerminateFcnOfS9B11>\
+%<tlcTerminateFcnOfS9B12>\
+%<tlcTerminateFcnOfS9B13>\
+%<tlcTerminateFcnOfS9B14>\
+%<tlcTerminateFcnOfS9B15>\
+%<tlcTerminateFcnOfS9B16>\
+%<tlcTerminateFcnOfS9B19>\
+%<tlcTerminateFcnOfS9B21>\
+%<tlcTerminateFcnOfS9B22>\
+%<tlcTerminateFcnOfS9B23>\
+%<tlcTerminateFcnOfS9B24>\
+%<tlcTerminateFcnOfS9B25>\
+%<tlcTerminateFcnOfS9B26>\
+%<tlcTerminateFcnOfS9B27>\
+%<tlcTerminateFcnOfS9B28>\
+%<tlcTerminateFcnOfS9B29>\
+%<tlcTerminateFcnOfS9B31>\
+%<tlcTerminateFcnOfS9B34>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B0>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B1>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B3>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B5>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B6>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B7>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B8>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B9>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B10>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B11>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B12>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B13>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B14>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B15>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B16>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B19>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B21>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B22>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B23>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B24>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B25>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B26>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B27>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B28>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B29>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B31>\
+%<tlcCleanupRuntimeResourcesFcnOfS9B34>\
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function TerminateFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Terminate(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 7, fcnProtoType)>
+%endfunction
