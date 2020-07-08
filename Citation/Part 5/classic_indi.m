@@ -30,7 +30,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$C_m$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 30;
 label1.Position(1) = label_ref1;
-legend('Classic Analytical Unfailed', 'Classic Model Unfailed', 'location', 'northwest')
+legend('Classical Analytical Unfailed', 'Classical Model Unfailed', 'location', 'northwest')
 grid on
 
 subplot(422)
@@ -38,7 +38,7 @@ hold on
 plot(y_indi_unf(tb:end,1), y_indi_unf(tb:end,4))
 plot(y_est_indi_unf(tb:end,1), y_est_indi_unf(tb:end,4))
 xlabel('time [s]', 'interpreter', 'latex')
-label2 = ylabel('$C_Y$ [-]', 'interpreter', 'latex');
+label2 = ylabel('$C_m$ [-]', 'interpreter', 'latex');
 label_ref2 = label2.Position(1) - 32;
 label2.Position(1) = label_ref2;
 legend('INDI Analytical Unfailed', 'INDI Model Unfailed', 'location', 'northwest')
@@ -117,7 +117,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$C_m$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 28;
 label1.Position(1) = label_ref1;
-legend('Classic Analytical Failed', 'Classic Model Failed', 'location', 'northwest')
+legend('Classical Analytical Failed', 'Classical Model Failed', 'location', 'northwest')
 grid on
 
 subplot(422)
@@ -315,7 +315,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$C_{Y_{\delta_a}}$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 15;
 label1.Position(1) = label_ref1;
-legend('Classic Unfailed', 'Classic Failed', 'location', 'northwest')
+legend('Classical Unfailed', 'Classical Failed', 'location', 'northwest')
 grid on
 
 subplot(322)
@@ -385,7 +385,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$p$ [rad/s]','interpreter', 'latex');
 label_ref1 = label1.Position(1) - 10;
 label1.Position(1) = label_ref1;
-legend('Classic Reference Unfailed', 'Classic Signal Unfailed', 'location', 'northwest')
+legend('Classical Reference Unfailed', 'Classical Signal Unfailed', 'location', 'northwest')
 grid on;
 
 subplot(222)
@@ -485,7 +485,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$p$ [rad/s]','interpreter', 'latex');
 label_ref1 = label1.Position(1) - 20;
 label1.Position(1) = label_ref1;
-legend('Classic Reference Failed', 'Classic Signal Failed', 'location', 'northwest')
+legend('Classical Reference Failed', 'Classical Signal Failed', 'location', 'northwest')
 grid on;
 
 subplot(222)
@@ -494,7 +494,7 @@ plot(tout_classic_fail, classic_pqr_fail.signals(1).values(:,2), 'r--', 'LineWid
 plot(tout_classic_fail, classic_pqr_fail.signals(2).values(:,2), 'b-')
 xlabel('time [s]', 'interpreter', 'latex')
 label2 = ylabel('$q$ [rad/s]','interpreter', 'latex');
-label_ref2 = label2.Position(1) - 15;
+label_ref2 = label2.Position(1) - 25;
 label2.Position(1) = label_ref2;
 grid on;
 
