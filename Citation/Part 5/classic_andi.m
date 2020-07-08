@@ -17,7 +17,7 @@ load('Data/ANDI_failed.mat')
 save = 0;
 tb = 10/0.01;
 
-%% Present the result classic vs FTFC
+%% Present Results Classic Controller vs ANDI Controller
 %% ------------------------------------------------------------------------
 plotID = 1001;
 figure(plotID);

@@ -1,7 +1,7 @@
 Model {
   Name			  "Citation"
   Version		  10.1
-  SavedCharacterEncoding  "windows-1252"
+  SavedCharacterEncoding  "UTF-8"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    1
@@ -12,7 +12,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.966"
+    ComputedModelVersion    "1.969"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -106,12 +106,12 @@ Model {
     }
     OrderedModelArguments   1
   }
-  DiagnosticSuppressor	  "on"
   LogicAnalyzerPlugin	  "on"
-  WebScopes_FoundationPlugin "on"
-  NotesPlugin		  "on"
   SLCCPlugin		  "on"
+  DiagnosticSuppressor	  "on"
   AnimationPlugin	  "on"
+  NotesPlugin		  "on"
+  WebScopes_FoundationPlugin "on"
   EnableAccessToBaseWorkspace on
   ScopeRefreshTime	  0.035000
   OverrideScopeRefreshTime on
@@ -122,7 +122,7 @@ Model {
   MinMaxOverflowArchiveMode "Overwrite"
   FPTRunName		  "Run 1"
   MaxMDLFileLineLength	  120
-  LastSavedArchitecture	  "win64"
+  LastSavedArchitecture	  "maci64"
   Object {
     $PropName		    "BdWindowsInfo"
     $ObjectID		    1
@@ -132,7 +132,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-8.0, -8.0, 1936.0, 1056.0]
+      Location		      [0.0, 23.0, 1440.0, 828.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -159,24 +159,90 @@ Model {
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [-770.0073811266991, -55.396340820142768]
-	  SceneRectInView	  [-770.0073811266991, -55.396340820142768, 2352.5, 1055.0]
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-113.22999864646519, 442.99890434250756]
+	  SceneRectInView	  [-113.22999864646519, 442.99890434250756, 1402.0, 629.0]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2193"
-	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-487.04400205288943, -426.26375225231078]
-	  SceneRectInView	  [-487.04400205288943, -426.26375225231078, 1505.6, 675.2]
+	  LoadSaveID		  "1955"
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-97.791690362109421, 34.899329143340083]
+	  SceneRectInView	  [-97.791690362109421, 34.899329143340083, 934.66666666666663, 419.33333333333331]
 	}
 	Object {
 	  $ObjectID		  7
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2326"
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [0.93119022316684386]
+	  Offset		  [-397.49877564133789, -371.09985832362133]
+	  SceneRectInView	  [-397.49877564133789, -371.09985832362133, 1505.6, 675.47960057061334]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2193"
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [0.93119022316684386]
+	  Offset		  [-487.04400205288943, -426.40355253761743]
+	  SceneRectInView	  [-487.04400205288943, -426.40355253761743, 1505.6, 675.47960057061334]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2417"
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-166.99739583333331, -52.833333333333314]
+	  SceneRectInView	  [-166.99739583333331, -52.833333333333314, 934.66666666666663, 419.33333333333331]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1956"
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [0.93119022316684386]
+	  Offset		  [-44.229911302948949, -31.023769954221962]
+	  SceneRectInView	  [-44.229911302948949, -31.023769954221962, 1505.6, 675.47960057061334]
+	}
+	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "20"
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [0.9876076112805352]
+	  Offset		  [-276.0345042765012, 6.8968395660944566]
+	  SceneRectInView	  [-276.0345042765012, 6.8968395660944566, 1419.5921375921378, 636.89262093113734]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "17"
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [1.3036663124335814]
+	  Offset		  [-4.8788302688295744, 64.388184877551737]
+	  SceneRectInView	  [-4.8788302688295744, 64.388184877551737, 1075.4285714285713, 482.4854289790095]
+	}
+	Object {
+	  $ObjectID		  13
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -187,7 +253,7 @@ Model {
 	  SceneRectInView	  [-221.67171294016552, -266.94370713127324, 1075.4285714285713, 482.28571428571428]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  14
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -198,40 +264,7 @@ Model {
 	  SceneRectInView	  [-638.96742625413094, -132.40614697333763, 2352.5, 1055.0]
 	}
 	Object {
-	  $ObjectID		  9
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2326"
-	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-397.49877564133789, -370.96005803831468]
-	  SceneRectInView	  [-397.49877564133789, -370.96005803831468, 1505.6, 675.2]
-	}
-	Object {
-	  $ObjectID		  10
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "17"
-	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.7500000000000002]
-	  Offset		  [-4.8788302688295495, 64.488042224199347]
-	  SceneRectInView	  [-4.8788302688295495, 64.488042224199347, 1075.4285714285713, 482.28571428571422]
-	}
-	Object {
-	  $ObjectID		  11
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "20"
-	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.3257328990228012]
-	  Offset		  [-276.0345042765012, 7.0286537171667911]
-	  SceneRectInView	  [-276.0345042765012, 7.0286537171667911, 1419.5921375921378, 636.62899262899271]
-	}
-	Object {
-	  $ObjectID		  12
+	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -242,18 +275,7 @@ Model {
 	  SceneRectInView	  [49.19348894348925, -17.890897390897546, 627.33333333333337, 281.33333333333331]
 	}
 	Object {
-	  $ObjectID		  13
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2417"
-	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [2.0135520684736092]
-	  Offset		  [-166.99739583333331, -52.74654622741761]
-	  SceneRectInView	  [-166.99739583333331, -52.74654622741761, 934.66666666666663, 419.15975912150191]
-	}
-	Object {
-	  $ObjectID		  14
+	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -262,28 +284,6 @@ Model {
 	  ZoomFactor		  [1.0]
 	  Offset		  [-746.0, -328.5]
 	  SceneRectInView	  [-746.0, -328.5, 1882.0, 844.0]
-	}
-	Object {
-	  $ObjectID		  15
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1955"
-	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [2.0135520684736092]
-	  Offset		  [-97.791690362109421, 34.986116249255787]
-	  SceneRectInView	  [-97.791690362109421, 34.986116249255787, 934.66666666666663, 419.15975912150191]
-	}
-	Object {
-	  $ObjectID		  16
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1956"
-	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-44.229911302948949, -30.883969668915313]
-	  SceneRectInView	  [-44.229911302948949, -30.883969668915313, 1505.6, 675.2]
 	}
 	Object {
 	  $ObjectID		  17
@@ -540,10 +540,10 @@ Model {
       }
       WindowState	      "AAAA/wAAAAD9AAAAAwAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABqAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
       "QBjAHQAbwByAAAAAAD/////AAABrAD///8AAAADAAAHgAAAAOr8AQAAAAH7AAAANgBHAEwAVQBFADIAOgBTAHAAcgBlAGEAZABTAGgAZQBlAHQAL"
-      "wBNAG8AZABlAGwARABhAHQAYQAAAAAAAAAHgAAAARoA////AAAHgAAAA2sAAAABAAAAAgAAAAEAAAAC/AAAAAA="
+      "wBNAG8AZABlAGwARABhAHQAYQAAAAAAAAAHgAAAASsA////AAAFoAAAApQAAAABAAAAAgAAAAEAAAAC/AAAAAA="
       Array {
 	Type			"Cell"
 	Dimension		0
@@ -558,11 +558,11 @@ Model {
   Creator		  "laurensvaneykeren"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Tran"
+  LastModifiedBy	  "tran"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Jul 08 14:01:50 2020"
-  RTWModifiedTimeStamp	  516117683
-  ModelVersionFormat	  "1.%<AutoIncrement:966>"
+  LastModifiedDate	  "Wed Jul 08 19:52:52 2020"
+  RTWModifiedTimeStamp	  516138726
+  ModelVersionFormat	  "1.%<AutoIncrement:969>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1827,7 +1827,7 @@ Model {
   }
   System {
     Name		    "Citation"
-    Location		    [-8, -8, 1928, 1048]
+    Location		    [0, 23, 1440, 851]
     Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
@@ -1842,7 +1842,7 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "80"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "2613"
     SimulinkSubDomain	    "Simulink"
@@ -2148,7 +2148,7 @@ Model {
       ContentPreviewEnabled   on
       System {
 	Name			"ANDI Rate Controller"
-	Location		[-8, -8, 1928, 1048]
+	Location		[0, 23, 1440, 851]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -2163,7 +2163,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"125"
+	ZoomFactor		"93"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -6357,7 +6357,7 @@ Model {
       }
       System {
 	Name			"Cessna Citation 500"
-	Location		[-8, -8, 1928, 1048]
+	Location		[0, 23, 1440, 851]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -6372,7 +6372,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"175"
+	ZoomFactor		"130"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -6408,7 +6408,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Actuators"
-	    Location		    [-8, -8, 1928, 1048]
+	    Location		    [0, 23, 1440, 851]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
@@ -6423,7 +6423,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "133"
+	    ZoomFactor		    "99"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -7527,7 +7527,7 @@ Model {
 	    Annotation {
 	      SID		      "58"
 	      Name		      "de\nda\ndr\ndte\ndta\ndtr\ndf\ngear\npla1\npla2"
-	      Position		      [47, 299, 69, 421]
+	      Position		      [47, 299, 68, 401]
 	      InternalMargins	      [0, 0, 0, 0]
 	      BackgroundColor	      "lightBlue"
 	      ZOrder		      -1
@@ -7535,7 +7535,7 @@ Model {
 	    Annotation {
 	      SID		      "59"
 	      Name		      "de\nda\ndr\ndte\ndta\ndtr\ndf\ngear\npla1\npla2"
-	      Position		      [902, 89, 924, 211]
+	      Position		      [902, 89, 923, 191]
 	      InternalMargins	      [0, 0, 0, 0]
 	      BackgroundColor	      "lightBlue"
 	      ZOrder		      -2
@@ -12094,7 +12094,7 @@ Model {
 		    SID			    "302"
 		    Name		    "02-11-2000\nModified by A. R. Veldhuijzen\nsftable3.m was replaced with table3.dll\nX and Y are excha"
 		    "nged in this Mathworks implementation"
-		    Position		    [109, 176, 365, 226]
+		    Position		    [109, 176, 365, 218]
 		    InternalMargins	    [0, 0, 0, 0]
 		    ZOrder		    -1
 		    }
@@ -20026,7 +20026,7 @@ Model {
 		    Annotation {
 		    SID			    "633"
 		    Name		    "X,Y,Z"
-		    Position		    [253, 88, 278, 102]
+		    Position		    [253, 88, 278, 100]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -20220,7 +20220,7 @@ Model {
 		    Annotation {
 		    SID			    "643"
 		    Name		    "X,Y,Z"
-		    Position		    [253, 88, 278, 102]
+		    Position		    [253, 88, 278, 100]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -20414,7 +20414,7 @@ Model {
 		    Annotation {
 		    SID			    "653"
 		    Name		    "X,Y,Z"
-		    Position		    [253, 88, 278, 102]
+		    Position		    [253, 88, 278, 100]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -20829,7 +20829,7 @@ Model {
 		    Annotation {
 		    SID			    "671"
 		    Name		    "X,Y,Z"
-		    Position		    [253, 88, 278, 102]
+		    Position		    [253, 88, 278, 100]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -24054,7 +24054,7 @@ Model {
 		    Annotation {
 		    SID			    "873"
 		    Name		    "N1c feedback"
-		    Position		    [769, 292, 832, 306]
+		    Position		    [769, 292, 832, 304]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -24062,7 +24062,7 @@ Model {
 		    Annotation {
 		    SID			    "874"
 		    Name		    "N1cdot"
-		    Position		    [779, 152, 812, 166]
+		    Position		    [779, 152, 812, 164]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -2
@@ -24731,7 +24731,7 @@ Model {
 		    Annotation {
 		    SID			    "907"
 		    Name		    "N2 feedback"
-		    Position		    [684, 367, 742, 381]
+		    Position		    [684, 367, 742, 379]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -24739,7 +24739,7 @@ Model {
 		    Annotation {
 		    SID			    "908"
 		    Name		    "N2dot"
-		    Position		    [698, 217, 726, 231]
+		    Position		    [698, 217, 726, 229]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -2
@@ -25658,7 +25658,7 @@ Model {
 		    Annotation {
 		    SID			    "959"
 		    Name		    "Mach"
-		    Position		    [244, 727, 270, 741]
+		    Position		    [244, 727, 270, 739]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -26157,7 +26157,7 @@ Model {
 		    Annotation {
 		    SID			    "976"
 		    Name		    "Deng "
-		    Position		    [93, 557, 121, 571]
+		    Position		    [93, 557, 121, 569]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -26165,7 +26165,7 @@ Model {
 		    Annotation {
 		    SID			    "977"
 		    Name		    "PLA"
-		    Position		    [97, 192, 117, 206]
+		    Position		    [97, 192, 117, 204]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -2
@@ -27541,7 +27541,7 @@ Model {
 		    Annotation {
 		    SID			    "1051"
 		    Name		    "N1c feedback"
-		    Position		    [769, 292, 832, 306]
+		    Position		    [769, 292, 832, 304]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -27549,7 +27549,7 @@ Model {
 		    Annotation {
 		    SID			    "1052"
 		    Name		    "N1cdot"
-		    Position		    [779, 152, 812, 166]
+		    Position		    [779, 152, 812, 164]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -2
@@ -28218,7 +28218,7 @@ Model {
 		    Annotation {
 		    SID			    "1085"
 		    Name		    "N2 feedback"
-		    Position		    [684, 367, 742, 381]
+		    Position		    [684, 367, 742, 379]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -28226,7 +28226,7 @@ Model {
 		    Annotation {
 		    SID			    "1086"
 		    Name		    "N2dot"
-		    Position		    [698, 217, 726, 231]
+		    Position		    [698, 217, 726, 229]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -2
@@ -29145,7 +29145,7 @@ Model {
 		    Annotation {
 		    SID			    "1137"
 		    Name		    "Mach"
-		    Position		    [244, 727, 270, 741]
+		    Position		    [244, 727, 270, 739]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -29644,7 +29644,7 @@ Model {
 		    Annotation {
 		    SID			    "1154"
 		    Name		    "Deng "
-		    Position		    [93, 557, 121, 571]
+		    Position		    [93, 557, 121, 569]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -29652,7 +29652,7 @@ Model {
 		    Annotation {
 		    SID			    "1155"
 		    Name		    "PLA"
-		    Position		    [97, 192, 117, 206]
+		    Position		    [97, 192, 117, 204]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -2
@@ -31141,7 +31141,7 @@ Model {
 		    Annotation {
 		    SID			    "1203"
 		    Name		    "ut"
-		    Position		    [127, 219, 137, 233]
+		    Position		    [127, 219, 137, 231]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -36435,7 +36435,7 @@ Model {
 		    Annotation {
 		    SID			    "1468"
 		    Name		    "mass"
-		    Position		    [293, 587, 318, 601]
+		    Position		    [293, 587, 318, 599]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -1
@@ -36443,7 +36443,7 @@ Model {
 		    Annotation {
 		    SID			    "1469"
 		    Name		    "inertia"
-		    Position		    [291, 607, 320, 621]
+		    Position		    [291, 607, 320, 619]
 		    InternalMargins	    [0, 0, 0, 0]
 		    VerticalAlignment	    "top"
 		    ZOrder		    -2
@@ -41376,7 +41376,7 @@ Model {
 		    Annotation {
 		    SID			    "1725"
 		    Name		    "NLR Model"
-		    Position		    [100, 324, 151, 338]
+		    Position		    [100, 324, 151, 336]
 		    InternalMargins	    [0, 0, 0, 0]
 		    ZOrder		    -1
 		    }
@@ -41504,7 +41504,7 @@ Model {
 		    Annotation {
 		    SID			    "1730"
 		    Name		    "Landing Gear Model\nCessna Citation 500\nVersion 0.04NLR\n(c) A.R. Veldhuijzen September 2001"
-		    Position		    [540, 546, 771, 612]
+		    Position		    [540, 546, 782, 616]
 		    InternalMargins	    [0, 0, 0, 0]
 		    ZOrder		    -1
 		    FontName		    "Arial"
@@ -43399,7 +43399,7 @@ Model {
 		    Annotation {
 		    SID			    "1829"
 		    Name		    "Modified by Alex : Flight-Path Subsystem from Ac_mod instead of Ac_modpc"
-		    Position		    [504, 372, 844, 386]
+		    Position		    [504, 372, 844, 384]
 		    InternalMargins	    [0, 0, 0, 0]
 		    ZOrder		    -1
 		    }
@@ -43877,14 +43877,14 @@ Model {
 		    Annotation {
 		    SID			    "1856"
 		    Name		    "winddir output deleted\nyou can calculate it yourself\nfrom uvw, you lazy bastard"
-		    Position		    [705, 80, 830, 118]
+		    Position		    [705, 80, 829, 112]
 		    InternalMargins	    [0, 0, 0, 0]
 		    ZOrder		    -1
 		    }
 		    Annotation {
 		    SID			    "1857"
 		    Name		    "runway elevation\ncorrection deleted,\nis all relative to sea level"
-		    Position		    [88, 207, 198, 245]
+		    Position		    [88, 207, 198, 239]
 		    InternalMargins	    [0, 0, 0, 0]
 		    ZOrder		    -2
 		    }
@@ -46025,7 +46025,7 @@ Model {
 	Annotation {
 	  SID			  "1942"
 	  Name			  "p\nq\nr\nvtas\nalpha\nbeta\nphi\ntheta\npsi\nhe\nxe\nye"
-	  Position		  [1094, 42, 1120, 188]
+	  Position		  [1094, 42, 1120, 164]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -1
@@ -46033,7 +46033,7 @@ Model {
 	Annotation {
 	  SID			  "1943"
 	  Name			  "de\nda\ndr\ndte\ndta\ndtr\ndf\ngear\npla1\npla2"
-	  Position		  [-53, 84, -31, 206]
+	  Position		  [-53, 84, -32, 186]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -2
@@ -46041,7 +46041,7 @@ Model {
 	Annotation {
 	  SID			  "1944"
 	  Name			  "pdot\nqdot\nrdot\nVTASdot\nhedot"
-	  Position		  [1137, 152, 1178, 214]
+	  Position		  [1137, 152, 1178, 204]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -3
@@ -46049,7 +46049,7 @@ Model {
 	Annotation {
 	  SID			  "1945"
 	  Name			  "hradio\nMach\nu_wind_e\nv_wind_e\nw_wind_e"
-	  Position		  [1194, 192, 1240, 254]
+	  Position		  [1194, 192, 1240, 244]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -4
@@ -46057,7 +46057,7 @@ Model {
 	Annotation {
 	  SID			  "1946"
 	  Name			  "anxb\nanyb\nanzb\nn"
-	  Position		  [1096, 282, 1119, 332]
+	  Position		  [1096, 282, 1119, 324]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -5
@@ -46065,7 +46065,7 @@ Model {
 	Annotation {
 	  SID			  "1947"
 	  Name			  "gamma\nchi\nVground"
-	  Position		  [1133, 307, 1172, 345]
+	  Position		  [1133, 307, 1172, 339]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -6
@@ -46073,7 +46073,7 @@ Model {
 	Annotation {
 	  SID			  "1948"
 	  Name			  "turb 8x\nterr_elev"
-	  Position		  [-58, 294, -18, 320]
+	  Position		  [-58, 294, -18, 316]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -7
@@ -46081,7 +46081,7 @@ Model {
 	Annotation {
 	  SID			  "1949"
 	  Name			  "flaps\ngear"
-	  Position		  [1101, 397, 1124, 423]
+	  Position		  [1101, 397, 1124, 419]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -8
@@ -46089,7 +46089,7 @@ Model {
 	Annotation {
 	  SID			  "1950"
 	  Name			  "de\nda\ndr\ndte\ndta\ndtr\ndf\ngear\npla1\npla2"
-	  Position		  [1207, 504, 1229, 626]
+	  Position		  [1207, 504, 1228, 606]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -9
@@ -46097,7 +46097,7 @@ Model {
 	Annotation {
 	  SID			  "1951"
 	  Name			  "FFl\nN1l\nN2l\nFFr\nN1r\nN2r"
-	  Position		  [1203, 332, 1222, 406]
+	  Position		  [1203, 332, 1221, 394]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -10
@@ -47331,7 +47331,7 @@ Model {
       ContentPreviewEnabled   on
       System {
 	Name			"INDI Rate Controller"
-	Location		[-8, -8, 1928, 1048]
+	Location		[0, 23, 1440, 851]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -47346,7 +47346,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"125"
+	ZoomFactor		"93"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -48910,6 +48910,7 @@ Model {
       ZOrder		      60
       BlockMirror	      on
       NameLocation	      "top"
+      CurrentSetting	      "0"
     }
     Block {
       BlockType		      ManualSwitch
@@ -48919,7 +48920,6 @@ Model {
       ZOrder		      76
       BlockMirror	      on
       NameLocation	      "top"
-      CurrentSetting	      "0"
     }
     Block {
       BlockType		      Mux
@@ -48965,7 +48965,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Pilot"
-	Location		[-8, -8, 1928, 1048]
+	Location		[0, 23, 1440, 851]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -48980,7 +48980,7 @@ Model {
 	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"201"
+	ZoomFactor		"150"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -48992,7 +48992,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Joystick"
-	    Location		    [-8, -8, 1928, 1048]
+	    Location		    [0, 23, 1440, 851]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
@@ -49007,7 +49007,7 @@ Model {
 	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "125"
+	    ZoomFactor		    "93"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Constant
@@ -49301,7 +49301,7 @@ Model {
 	      ZOrder		      2
 	      InputPortWidth	      "6"
 	      IndexOptions	      "Index vector (dialog)"
-	      Indices		      "[3 6 1 2]"
+	      Indices		      "[3 4 1 2]"
 	      OutputSizes	      "1"
 	    }
 	    Block {
@@ -49688,7 +49688,7 @@ Model {
 	      SID		      "1987"
 	      Name		      "raw inputs\naileron [-0.6328,0.014,0.72] right+\nelevator [-0.6973,-0.033,0.5725] backwards+\nthro"
 	      "ttle [-0.6407,0,0.5317]bacwards+\nrudder [-0.56,0.127,0.73] right+"
-	      Position		      [25, 493, 225, 555]
+	      Position		      [25, 493, 225, 545]
 	      InternalMargins	      [0, 0, 0, 0]
 	      ZOrder		      -1
 	    }
@@ -49696,21 +49696,21 @@ Model {
 	      SID		      "1988"
 	      Name		      "normalize inputs\naileron [-1,0,1] left+\nelevator [-1,0,1] forward+\nrudder [-1,0,1] left+\nthrot"
 	      "tle [-1,0,1] forward+"
-	      Position		      [289, 493, 402, 555]
+	      Position		      [289, 493, 402, 545]
 	      InternalMargins	      [0, 0, 0, 0]
 	      ZOrder		      -2
 	    }
 	    Annotation {
 	      SID		      "1989"
 	      Name		      "apply real limits \n[deg]\n[%]"
-	      Position		      [719, 503, 792, 541]
+	      Position		      [719, 503, 792, 535]
 	      InternalMargins	      [0, 0, 0, 0]
 	      ZOrder		      -3
 	    }
 	    Annotation {
 	      SID		      "1990"
 	      Name		      "Convert to radians\n[rad]\n[%]"
-	      Position		      [839, 503, 922, 541]
+	      Position		      [839, 503, 922, 535]
 	      InternalMargins	      [0, 0, 0, 0]
 	      ZOrder		      -4
 	    }
@@ -49922,7 +49922,7 @@ Model {
 	Annotation {
 	  SID			  "2000"
 	  Name			  "de\nda\ndr\ndte\ndta\ndtr\ndf\ngear\npla1\npla2\nturb 8x\nterr elev"
-	  Position		  [433, 139, 471, 285]
+	  Position		  [433, 139, 471, 261]
 	  InternalMargins	  [0, 0, 0, 0]
 	  BackgroundColor	  "lightBlue"
 	  ZOrder		  -1
@@ -49993,7 +49993,7 @@ Model {
       ContentPreviewEnabled   on
       System {
 	Name			"Subsystem1"
-	Location		[-8, -8, 1928, 1048]
+	Location		[0, 23, 1440, 851]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -50008,7 +50008,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"201"
+	ZoomFactor		"150"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -50624,7 +50624,7 @@ Model {
     Annotation {
       SID		      "2006"
       Name		      "de\nda\ndr\ndte\ndta\ndtr\ndf\ngear\npla1\npla2\nturb 8x\nterr elev"
-      Position		      [198, 124, 236, 270]
+      Position		      [198, 124, 236, 246]
       InternalMargins	      [0, 0, 0, 0]
       BackgroundColor	      "lightBlue"
       ZOrder		      -1
@@ -50632,7 +50632,7 @@ Model {
     Annotation {
       SID		      "2007"
       Name		      "p\nq\nr\nvtas\nalpha\nbeta\nphi\ntheta\npsi\nhe\nxe\nye"
-      Position		      [539, 82, 565, 228]
+      Position		      [539, 82, 565, 204]
       InternalMargins	      [0, 0, 0, 0]
       BackgroundColor	      "lightBlue"
       ZOrder		      -2
@@ -50640,7 +50640,7 @@ Model {
     Annotation {
       SID		      "2008"
       Name		      "pdot\nqdot\nrdot\nVTASdot\nhedot"
-      Position		      [582, 72, 623, 134]
+      Position		      [582, 72, 623, 124]
       InternalMargins	      [0, 0, 0, 0]
       BackgroundColor	      "lightBlue"
       ZOrder		      -3
@@ -50648,7 +50648,7 @@ Model {
     Annotation {
       SID		      "2009"
       Name		      "hradio\nMach\nu_wind_e\nv_wind_e\nw_wind_e"
-      Position		      [639, 72, 685, 134]
+      Position		      [639, 72, 685, 124]
       InternalMargins	      [0, 0, 0, 0]
       BackgroundColor	      "lightBlue"
       ZOrder		      -4
@@ -50656,7 +50656,7 @@ Model {
     Annotation {
       SID		      "2010"
       Name		      "anxb\nanyb\nanzb\nn"
-      Position		      [701, 72, 724, 122]
+      Position		      [701, 72, 724, 114]
       InternalMargins	      [0, 0, 0, 0]
       BackgroundColor	      "lightBlue"
       ZOrder		      -5
@@ -50664,7 +50664,7 @@ Model {
     Annotation {
       SID		      "2011"
       Name		      "gamma\nchi\nVground"
-      Position		      [738, 72, 777, 110]
+      Position		      [738, 72, 777, 104]
       InternalMargins	      [0, 0, 0, 0]
       BackgroundColor	      "lightBlue"
       ZOrder		      -6
@@ -50672,7 +50672,7 @@ Model {
     Annotation {
       SID		      "2012"
       Name		      "flaps\ngear"
-      Position		      [816, 72, 839, 98]
+      Position		      [816, 72, 839, 94]
       InternalMargins	      [0, 0, 0, 0]
       BackgroundColor	      "lightBlue"
       ZOrder		      -7
@@ -50680,7 +50680,7 @@ Model {
     Annotation {
       SID		      "2013"
       Name		      "FFl\nN1l\nN2l\nFFr\nN1r\nN2r"
-      Position		      [788, 77, 807, 151]
+      Position		      [788, 77, 806, 139]
       InternalMargins	      [0, 0, 0, 0]
       BackgroundColor	      "lightBlue"
       ZOrder		      -8
@@ -50688,56 +50688,56 @@ Model {
     Annotation {
       SID		      "2014"
       Name		      "12"
-      Position		      [545, 49, 558, 63]
+      Position		      [545, 49, 558, 61]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -9
     }
     Annotation {
       SID		      "2015"
       Name		      "5"
-      Position		      [598, 52, 605, 66]
+      Position		      [598, 52, 605, 64]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -10
     }
     Annotation {
       SID		      "2016"
       Name		      "5"
-      Position		      [660, 49, 667, 63]
+      Position		      [660, 49, 667, 61]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -11
     }
     Annotation {
       SID		      "2017"
       Name		      "4"
-      Position		      [711, 49, 718, 63]
+      Position		      [711, 49, 718, 61]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -12
     }
     Annotation {
       SID		      "2018"
       Name		      "3"
-      Position		      [755, 53, 762, 67]
+      Position		      [755, 53, 762, 65]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -13
     }
     Annotation {
       SID		      "2019"
       Name		      "6"
-      Position		      [796, 54, 803, 68]
+      Position		      [796, 54, 803, 66]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -14
     }
     Annotation {
       SID		      "2020"
       Name		      "2"
-      Position		      [822, 55, 829, 69]
+      Position		      [822, 55, 829, 67]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -15
     }
     Annotation {
       SID		      "2021"
       Name		      "19"
-      Position		      [213, 92, 226, 106]
+      Position		      [213, 92, 226, 104]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -16
     }
@@ -50951,9 +50951,6 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 12 0 0]
     viewObj		    11
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    46
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -52385,13 +52382,16 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 73 0 0]
     viewObj		    72
+    visible		    1
+    subviewS {
+    }
     ssIdHighWaterMark	    8
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
     chartFileNumber	    5
     disableImplicitCasting  1
     eml {
-      name		      "b_matrix"
+      name		      "b_matrix_andi"
     }
     firstData		    74
     firstTransition	    80
@@ -52411,16 +52411,16 @@ Stateflow {
     decomposition	    CLUSTER_STATE
     eml {
       isEML		      1
-      script		      "function y = b_matrix(inputs,states,rho,para)\n%% Define Parameters\nIxx = 11187.8;   b = 13.3250"
-      ";   Vtas = states(4);\nIyy = 22854.8;   S = 24.9900;    \nIzz = 31974.8;   c = 1.9910;     \nIxz = 1930.1;    m "
-      "= 4500;       \n\n%% Define RLS Parameters\nCX0   = para(1);   CZ0  = para(6);    Cm0  = para(10); \nCXa   = par"
-      "a(2);   CZa  = para(7);    Cma  = para(11);\nCXaa  = para(3);   CZq  = para(8);    Cmq  = para(12);\nCXq   = par"
-      "a(4);   CZde = para(9);    Cmde = para(13);\nCXde  = para(5);\n\nCY0   = para(14);  Cl0   = para(20);  Cn0   = p"
-      "ara(26);\nCYb   = para(15);  Clb   = para(21);  Cnb   = para(27);\nCYp   = para(16);  Clp   = para(22);  Cnp   ="
-      " para(28);\nCYr   = para(17);  Clr   = para(23);  Cnr   = para(29);\nCYda  = para(18);  Clda  = para(24);  Cnda "
-      " = para(30);\nCYdr  = para(19);  Cldr  = para(25);  Cndr  = para(31);\n\n%% Define Matrices\nI = [Ixx 0 -Ixz;\n "
-      "   0 Iyy 0;\n    -Ixz 0 Izz];\n\nM1 = [b*Clda 0 b*Cldr;\n     0 c*Cmde 0;\n     b*Cnda 0 b*Cndr];\n \n%% Calcula"
-      "te B Matrix\nB = (I./(0.5*rho*Vtas*Vtas*S)) * pinv(M1);\ndeflection = B*inputs;\n\ny = deflection;\n"
+      script		      "function y = b_matrix_andi(inputs,states,rho,para)\n%% Define Parameters\nIxx = 11187.8;   b = 13"
+      ".3250;   Vtas = states(4);\nIyy = 22854.8;   S = 24.9900;    \nIzz = 31974.8;   c = 1.9910;     \nIxz = 1930.1; "
+      "   m = 4500;       \n\n%% Define RLS Parameters\nCX0   = para(1);   CZ0  = para(6);    Cm0  = para(10); \nCXa   "
+      "= para(2);   CZa  = para(7);    Cma  = para(11);\nCXaa  = para(3);   CZq  = para(8);    Cmq  = para(12);\nCXq   "
+      "= para(4);   CZde = para(9);    Cmde = para(13);\nCXde  = para(5);\n\nCY0   = para(14);  Cl0   = para(20);  Cn0 "
+      "  = para(26);\nCYb   = para(15);  Clb   = para(21);  Cnb   = para(27);\nCYp   = para(16);  Clp   = para(22);  Cn"
+      "p   = para(28);\nCYr   = para(17);  Clr   = para(23);  Cnr   = para(29);\nCYda  = para(18);  Clda  = para(24);  "
+      "Cnda  = para(30);\nCYdr  = para(19);  Cldr  = para(25);  Cndr  = para(31);\n\n%% Define Matrices\nI = [Ixx 0 -Ix"
+      "z;\n    0 Iyy 0;\n    -Ixz 0 Izz];\n\nM1 = [b*Clda 0 b*Cldr;\n     0 c*Cmde 0;\n     b*Cnda 0 b*Cndr];\n \n%% Ca"
+      "lculate B Matrix\nB = (I./(0.5*rho*Vtas*Vtas*S)) * pinv(M1);\ndeflection = B*inputs;\n\ny = deflection;\n"
       editorLayout	      "100 M4x1[10 5 700 500]"
     }
   }
@@ -52776,13 +52776,16 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 92 0 0]
     viewObj		    91
+    visible		    1
+    subviewS {
+    }
     ssIdHighWaterMark	    8
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
     chartFileNumber	    7
     disableImplicitCasting  1
     eml {
-      name		      "fcn"
+      name		      "b_matrix_indi"
     }
     firstData		    93
     firstTransition	    99
@@ -52802,12 +52805,12 @@ Stateflow {
     decomposition	    CLUSTER_STATE
     eml {
       isEML		      1
-      script		      "function y = fcn(inputs,states,rho,para)\n%% Define Parameters\nIxx = 11187.8;   b = 13.3250;   V"
-      "tas = states(4);\nIyy = 22854.8;   S = 24.9900;    \nIzz = 31974.8;   c = 1.9910;     \nIxz = 1930.1;    m = 450"
-      "0;       \n\n%% Define RLS Parameters\nClda = -0.1929; \nCldr = -0.0000406;\nCmde = -0.9103;\nCnda = 0.05044;\nC"
-      "ndr = -0.06209;\n\n%% Define Matrices\nI = [Ixx 0 -Ixz;\n    0 Iyy 0;\n    -Ixz 0 Izz];\n\nM1 = [b*Clda 0 b*Cldr"
-      ";\n     0 c*Cmde 0;\n     b*Cnda 0 b*Cndr];\n \n%% Calculate B Matrix\nB = (I./(0.5*rho*Vtas*Vtas*S)) * pinv(M1)"
-      ";\ndeflection = B*inputs;\n\ny = deflection;\n"
+      script		      "function y = b_matrix_indi(inputs,states,rho,para)\n%% Define Parameters\nIxx = 11187.8;   b = 13"
+      ".3250;   Vtas = states(4);\nIyy = 22854.8;   S = 24.9900;    \nIzz = 31974.8;   c = 1.9910;     \nIxz = 1930.1; "
+      "   m = 4500;       \n\n%% Define RLS Parameters\nClda = -0.1929; \nCldr = -0.0000406;\nCmde = -0.9103;\nCnda = 0"
+      ".05044;\nCndr = -0.06209;\n\n%% Define Matrices\nI = [Ixx 0 -Ixz;\n    0 Iyy 0;\n    -Ixz 0 Izz];\n\nM1 = [b*Cld"
+      "a 0 b*Cldr;\n     0 c*Cmde 0;\n     b*Cnda 0 b*Cndr];\n \n%% Calculate B Matrix\nB = (I./(0.5*rho*Vtas*Vtas*S)) "
+      "* pinv(M1);\ndeflection = B*inputs;\n\ny = deflection;\n"
       editorLayout	      "100 M4x1[10 5 700 500]"
     }
   }

@@ -17,7 +17,8 @@ load('Data/INDI_failed.mat')
 save = 0;
 tb = 10/0.01;
 
-%% Present the result classic vs FTFC
+%% Present Results Classic Controller vs INDI Controller
+%% ------------------------------------------------------------------------
 plotID = 1001;
 figure(plotID);
 set(plotID, 'Position', [0 0 2000 1000], 'defaultaxesfontsize', 16, 'defaulttextfontsize', 14, 'color', [0.941, 0.941, 0.941], 'PaperPositionMode', 'auto');

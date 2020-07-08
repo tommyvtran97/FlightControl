@@ -10,11 +10,13 @@ clc;
 clear;
 
 load('Data/forgetting_factor.mat')
-save = 0;
 
+save = 0;
 tb = 169.9/0.01;
 te = 170.4/0.01;
-%% Present the plots
+
+%% Present Result Forgetting Factor
+%% ------------------------------------------------------------------------
 plotID = 1001;
 figure(plotID);
 set(plotID, 'Position', [0 0 2000 1000], 'defaultaxesfontsize', 16, 'defaulttextfontsize', 14, 'color', [0.941, 0.941, 0.941], 'PaperPositionMode', 'auto');
