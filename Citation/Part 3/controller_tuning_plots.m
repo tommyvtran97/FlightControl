@@ -1,3 +1,11 @@
+%===================================================================
+%       This script shows the results from tuning the classic
+%       controller with a step response as input and specific
+%       set of gains
+% 
+% Written by: Tommy Tran (4449142)
+%===================================================================
+
 clc;
 clear;
 

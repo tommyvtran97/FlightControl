@@ -12,7 +12,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.960"
+    ComputedModelVersion    "1.966"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -160,23 +160,34 @@ Model {
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-239.67951114801448, 280.55968384557985]
-	  SceneRectInView	  [-239.67951114801448, 280.55968384557985, 1505.6, 675.2]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-770.0073811266991, -55.396340820142768]
+	  SceneRectInView	  [-770.0073811266991, -55.396340820142768, 2352.5, 1055.0]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2417"
+	  LoadSaveID		  "2193"
 	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [2.0135520684736092]
-	  Offset		  [-166.99739583333331, -52.74654622741761]
-	  SceneRectInView	  [-166.99739583333331, -52.74654622741761, 934.66666666666663, 419.15975912150191]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-487.04400205288943, -426.26375225231078]
+	  SceneRectInView	  [-487.04400205288943, -426.26375225231078, 1505.6, 675.2]
 	}
 	Object {
 	  $ObjectID		  7
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2145"
+	  Extents		  [1882.0, 844.0]
+	  ZoomFactor		  [1.75]
+	  Offset		  [-221.67171294016552, -266.94370713127324]
+	  SceneRectInView	  [-221.67171294016552, -266.94370713127324, 1075.4285714285713, 482.28571428571428]
+	}
+	Object {
+	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -187,37 +198,26 @@ Model {
 	  SceneRectInView	  [-638.96742625413094, -132.40614697333763, 2352.5, 1055.0]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "2326"
 	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [-383.59213891683379, -314.28448895679867]
-	  SceneRectInView	  [-383.59213891683379, -314.28448895679867, 1254.6666666666667, 562.66666666666663]
-	}
-	Object {
-	  $ObjectID		  9
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2193"
-	  Extents		  [1882.0, 844.0]
 	  ZoomFactor		  [1.25]
-	  Offset		  [-487.84400205288892, -484.37537999730154]
-	  SceneRectInView	  [-487.84400205288892, -484.37537999730154, 1505.6, 675.2]
+	  Offset		  [-397.49877564133789, -370.96005803831468]
+	  SceneRectInView	  [-397.49877564133789, -370.96005803831468, 1505.6, 675.2]
 	}
 	Object {
 	  $ObjectID		  10
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2145"
+	  LoadSaveID		  "17"
 	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.75]
-	  Offset		  [-255.38599865445138, -239.915616108875]
-	  SceneRectInView	  [-255.38599865445138, -239.915616108875, 1075.4285714285713, 482.28571428571428]
+	  ZoomFactor		  [1.7500000000000002]
+	  Offset		  [-4.8788302688295495, 64.488042224199347]
+	  SceneRectInView	  [-4.8788302688295495, 64.488042224199347, 1075.4285714285713, 482.28571428571422]
 	}
 	Object {
 	  $ObjectID		  11
@@ -227,22 +227,33 @@ Model {
 	  LoadSaveID		  "20"
 	  Extents		  [1882.0, 844.0]
 	  ZoomFactor		  [1.3257328990228012]
-	  Offset		  [86.204627621049781, -48.035228346715265]
-	  SceneRectInView	  [86.204627621049781, -48.035228346715265, 1419.5921375921378, 636.62899262899271]
+	  Offset		  [-276.0345042765012, 7.0286537171667911]
+	  SceneRectInView	  [-276.0345042765012, 7.0286537171667911, 1419.5921375921378, 636.62899262899271]
 	}
 	Object {
 	  $ObjectID		  12
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "17"
+	  LoadSaveID		  "2044"
 	  Extents		  [1882.0, 844.0]
-	  ZoomFactor		  [1.7500000000000002]
-	  Offset		  [101.40688401688476, -42.0068210968916]
-	  SceneRectInView	  [101.40688401688476, -42.0068210968916, 1075.4285714285713, 482.28571428571422]
+	  ZoomFactor		  [3.0]
+	  Offset		  [49.19348894348925, -17.890897390897546]
+	  SceneRectInView	  [49.19348894348925, -17.890897390897546, 627.33333333333337, 281.33333333333331]
 	}
 	Object {
 	  $ObjectID		  13
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2417"
+	  Extents		  [1882.0, 844.0]
+	  ZoomFactor		  [2.0135520684736092]
+	  Offset		  [-166.99739583333331, -52.74654622741761]
+	  SceneRectInView	  [-166.99739583333331, -52.74654622741761, 934.66666666666663, 419.15975912150191]
+	}
+	Object {
+	  $ObjectID		  14
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -253,7 +264,7 @@ Model {
 	  SceneRectInView	  [-746.0, -328.5, 1882.0, 844.0]
 	}
 	Object {
-	  $ObjectID		  14
+	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -264,7 +275,7 @@ Model {
 	  SceneRectInView	  [-97.791690362109421, 34.986116249255787, 934.66666666666663, 419.15975912150191]
 	}
 	Object {
-	  $ObjectID		  15
+	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -275,7 +286,7 @@ Model {
 	  SceneRectInView	  [-44.229911302948949, -30.883969668915313, 1505.6, 675.2]
 	}
 	Object {
-	  $ObjectID		  16
+	  $ObjectID		  17
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -286,7 +297,7 @@ Model {
 	  SceneRectInView	  [-60.792857142857095, -10.405784756975191, 627.33333333333337, 281.33333333333331]
 	}
 	Object {
-	  $ObjectID		  17
+	  $ObjectID		  18
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -297,7 +308,7 @@ Model {
 	  SceneRectInView	  [-594.98828125, -256.0, 1882.0, 844.0]
 	}
 	Object {
-	  $ObjectID		  18
+	  $ObjectID		  19
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -308,7 +319,7 @@ Model {
 	  SceneRectInView	  [-224.13223119075823, -5.8278605280977436, 1505.6, 675.2]
 	}
 	Object {
-	  $ObjectID		  19
+	  $ObjectID		  20
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -319,7 +330,7 @@ Model {
 	  SceneRectInView	  [-220.41401489505751, -139.32142857142844, 1173.5423155044009, 526.28571428571433]
 	}
 	Object {
-	  $ObjectID		  20
+	  $ObjectID		  21
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -330,7 +341,7 @@ Model {
 	  SceneRectInView	  [-68.364684537914627, -29.404333107650558, 1075.4285714285713, 482.28571428571428]
 	}
 	Object {
-	  $ObjectID		  21
+	  $ObjectID		  22
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -341,7 +352,7 @@ Model {
 	  SceneRectInView	  [-92.775822726521383, 22.907580321509332, 765.74742014742014, 343.40638820638821]
 	}
 	Object {
-	  $ObjectID		  22
+	  $ObjectID		  23
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -350,17 +361,6 @@ Model {
 	  ZoomFactor		  [1.8327904451682953]
 	  Offset		  [-232.51460678317551, -99.499999999999943]
 	  SceneRectInView	  [-232.51460678317551, -99.499999999999943, 1026.8495260663508, 460.5]
-	}
-	Object {
-	  $ObjectID		  23
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2044"
-	  Extents		  [1882.0, 814.0]
-	  ZoomFactor		  [3.0]
-	  Offset		  [-2.139844389844086, -11.89089739089755]
-	  SceneRectInView	  [-2.139844389844086, -11.89089739089755, 627.33333333333337, 271.33333333333331]
 	}
 	Object {
 	  $ObjectID		  24
@@ -560,9 +560,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Tran"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Jul 08 00:39:22 2020"
-  RTWModifiedTimeStamp	  516069530
-  ModelVersionFormat	  "1.%<AutoIncrement:960>"
+  LastModifiedDate	  "Wed Jul 08 14:01:50 2020"
+  RTWModifiedTimeStamp	  516117683
+  ModelVersionFormat	  "1.%<AutoIncrement:966>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1842,9 +1842,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "125"
+    ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "2605"
+    SIDHighWatermark	    "2613"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      Terminator
@@ -3069,16 +3069,16 @@ Model {
 	  ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extmgr."
 	  "Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('Sources"
 	  "','WiredSimulink',true,'DataLoggingVariableName','ANDI_deflection','DataLogging',true,'DataLoggingSaveFormat','Stru"
-	  "cture'),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-6.72293','Ma"
-	  "xYLimReal','4.73142','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','6.72293','LegendVisibility','On','XGrid',"
+	  "cture'),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-5.38461','Ma"
+	  "xYLimReal','4.58357','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','5.38461','LegendVisibility','On','XGrid',"
 	  "true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.6"
 	  "86274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.1"
 	  "6078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.058823"
 	  "5294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Vis"
-	  "ible','on'),struct('Visible','off'),struct('Visible','off'),struct('Visible','on'),struct('Visible','off'),struct('"
-	  "Visible','off')}},'UserDefinedChannelNames',{{'pref','qref','ref','p','q','r'}},'NumLines',6,'LineNames',{{'pref','"
-	  "qref','ref','p','q','r'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-6.722"
-	  "93','MaxYLimReal','4.73142','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','6.72293','LegendVisibility','On','"
+	  "ible','off'),struct('Visible','off'),struct('Visible','on'),struct('Visible','off'),struct('Visible','off'),struct("
+	  "'Visible','on')}},'UserDefinedChannelNames',{{'pref','qref','ref','p','q','r'}},'NumLines',6,'LineNames',{{'pref','"
+	  "qref','ref','p','q','r'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-5.384"
+	  "61','MaxYLimReal','4.58357','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','5.38461','LegendVisibility','On','"
 	  "XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803"
 	  "922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 "
 	  "1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0"
@@ -3098,22 +3098,22 @@ Model {
 	  ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extmgr."
 	  "Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('Sources"
 	  "','WiredSimulink',true,'DataLoggingVariableName','ANDI_beta','DataLogging',true,'DataLoggingSaveFormat','Structure'"
-	  "),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-0.000029','MaxYLim"
-	  "Real','0.000057','YLabelReal','','MinYLimMag','0.000000','MaxYLimMag','0.000057','LegendVisibility','On','XGrid',tr"
-	  "ue,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686"
-	  "274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.160"
-	  "78431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.05882352"
-	  "94117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Visib"
-	  "le','on'),struct('Visible','on'),struct('Visible','off'),struct('Visible','on'),struct('Visible','off'),struct('Vis"
-	  "ible','off')}},'UserDefinedChannelNames',{{'beta_ref',''}},'NumLines',2,'LineNames',{{'beta_ref','beta'}},'ShowCont"
-	  "ent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-0.000029','MaxYLimReal','0.000057','YLab"
-	  "elReal','','MinYLimMag','0.000000','MaxYLimMag','0.000057','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotM"
-	  "agPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOr"
-	  "der',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.71764705"
-	  "8823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.07450"
-	  "98039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'PreviousAutoscale','XY','Once"
-	  "AtStop',false),extmgr.Configuration('Tools','Measurements',true,'Version','2020a')),'Version','2020a','Position',[9"
-	  "43 235 861 517])"
+	  "),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-0.4097','MaxYLimRe"
+	  "al','0.30874','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','0.4097','LegendVisibility','On','XGrid',true,'YG"
+	  "rid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509"
+	  "803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.160784313"
+	  "72549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.05882352941176"
+	  "47 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Visible','o"
+	  "n'),struct('Visible','on'),struct('Visible','off'),struct('Visible','on'),struct('Visible','off'),struct('Visible',"
+	  "'off')}},'UserDefinedChannelNames',{{'beta_ref',''}},'NumLines',2,'LineNames',{{'beta_ref','beta'}},'ShowContent',t"
+	  "rue,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-0.4097','MaxYLimReal','0.30874','YLabelReal','"
+	  "','MinYLimMag','0.00000','MaxYLimMag','0.4097','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',fal"
+	  "se,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745"
+	  "098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.27"
+	  "4509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 "
+	  "0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'PreviousAutoscale','XY','OnceAtStop',fals"
+	  "e),extmgr.Configuration('Tools','Measurements',true,'Version','2020a')),'Version','2020a','Position',[943 235 861 5"
+	  "17])"
 	  NumInputPorts		  "2"
 	  Floating		  off
 	}
@@ -3666,15 +3666,6 @@ Model {
 	  }
 	}
 	Line {
-	  Name			  "p,q,beta"
-	  ZOrder		  460
-	  Labels		  [1, 0]
-	  SrcBlock		  "Joystick Inputs"
-	  SrcPort		  1
-	  DstBlock		  "Demux"
-	  DstPort		  1
-	}
-	Line {
 	  ZOrder		  493
 	  SrcBlock		  "a matrix"
 	  SrcPort		  1
@@ -3737,23 +3728,6 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  592
-	  SrcBlock		  "Mux"
-	  SrcPort		  1
-	  Points		  [15, 0]
-	  Branch {
-	    ZOrder		    594
-	    Points		    [0, 55]
-	    DstBlock		    "Scope1"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    593
-	    DstBlock		    "Sum1"
-	    DstPort		    1
-	  }
-	}
-	Line {
 	  ZOrder		  602
 	  SrcBlock		  "PID Controller3"
 	  SrcPort		  1
@@ -3767,6 +3741,32 @@ Model {
 	  Points		  [20, 0; 0, 30]
 	  DstBlock		  "Mux2"
 	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  684
+	  SrcBlock		  "Mux"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    ZOrder		    686
+	    Points		    [0, 55]
+	    DstBlock		    "Scope1"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    685
+	    DstBlock		    "Sum1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  Name			  "p,q,beta"
+	  ZOrder		  688
+	  Labels		  [1, 0]
+	  SrcBlock		  "Joystick Inputs"
+	  SrcPort		  1
+	  DstBlock		  "Demux"
+	  DstPort		  1
 	}
       }
     }
@@ -46139,6 +46139,10 @@ Model {
 	  SID			  "2146"
 	  Position		  [-65, -72, -35, -58]
 	  ZOrder		  -1
+	  Port {
+	    PortNumber		    1
+	    Name		    "p,q,beta"
+	  }
 	}
 	Block {
 	  BlockType		  Inport
@@ -47090,7 +47094,7 @@ Model {
 	Line {
 	  Name			  "p,q,r"
 	  ZOrder		  23
-	  Labels		  [0, 1]
+	  Labels		  [1, 0]
 	  SrcBlock		  "Demux1"
 	  SrcPort		  1
 	  Points		  [265, 0; 0, -65]
@@ -47224,7 +47228,9 @@ Model {
 	  DstPort		  1
 	}
 	Line {
+	  Name			  "p,q,beta"
 	  ZOrder		  238
+	  Labels		  [-1, 1]
 	  SrcBlock		  "Joystick Inputs"
 	  SrcPort		  1
 	  DstBlock		  "Demux"
@@ -47340,14 +47346,18 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"150"
+	ZoomFactor		"125"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
 	  Name			  "Joystick Inputs"
 	  SID			  "2327"
-	  Position		  [-350, -202, -320, -188]
+	  Position		  [-370, -202, -340, -188]
 	  ZOrder		  -1
+	  Port {
+	    PortNumber		    1
+	    Name		    "p,q,beta"
+	  }
 	}
 	Block {
 	  BlockType		  Inport
@@ -48288,7 +48298,7 @@ Model {
 	  "9803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431"
 	  "372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117"
 	  "647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Visible','"
-	  "on'),struct('Visible','off'),struct('Visible','off'),struct('Visible','on'),struct('Visible','off'),struct('Visible"
+	  "off'),struct('Visible','on'),struct('Visible','off'),struct('Visible','off'),struct('Visible','on'),struct('Visible"
 	  "','off')}},'UserDefinedChannelNames',{{'p_ref','q_ref','r_ref','p','q','r'}},'NumLines',6,'LineNames',{{'p_ref','q_"
 	  "ref','r_ref','p','q','r'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-0.27"
 	  "847','MaxYLimReal','0.15794','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','0.27847','LegendVisibility','On',"
@@ -48785,13 +48795,6 @@ Model {
 	  DstPort		  2
 	}
 	Line {
-	  ZOrder		  196
-	  SrcBlock		  "Joystick Inputs"
-	  SrcPort		  1
-	  DstBlock		  "Demux"
-	  DstPort		  1
-	}
-	Line {
 	  ZOrder		  222
 	  SrcBlock		  "Sum"
 	  SrcPort		  1
@@ -48872,21 +48875,30 @@ Model {
 	  DstPort		  3
 	}
 	Line {
-	  ZOrder		  336
+	  ZOrder		  485
 	  SrcBlock		  "Mux"
 	  SrcPort		  1
 	  Points		  [15, 0]
 	  Branch {
-	    ZOrder		    439
+	    ZOrder		    487
 	    Points		    [0, 100]
 	    DstBlock		    "Scope"
 	    DstPort		    1
 	  }
 	  Branch {
-	    ZOrder		    395
+	    ZOrder		    486
 	    DstBlock		    "Sum1"
 	    DstPort		    1
 	  }
+	}
+	Line {
+	  Name			  "p,q,beta"
+	  ZOrder		  489
+	  Labels		  [-1, 1]
+	  SrcBlock		  "Joystick Inputs"
+	  SrcPort		  1
+	  DstBlock		  "Demux"
+	  DstPort		  1
 	}
       }
     }
@@ -48907,6 +48919,7 @@ Model {
       ZOrder		      76
       BlockMirror	      on
       NameLocation	      "top"
+      CurrentSetting	      "0"
     }
     Block {
       BlockType		      Mux
@@ -50980,44 +50993,42 @@ Stateflow {
       "    = Inputs(14)*g;\nr       = Inputs(3);    ye      = Inputs(9);    anzb    = Inputs(15)*g;\nvtas    = Inputs(4"
       ");    p_dot   = Inputs(10);   de      = Inputs(16);\nalpha   = Inputs(5);    q_dot   = Inputs(11);   da      = I"
       "nputs(17);\nbeta    = Inputs(6);    r_dot   = Inputs(12);   dr      = Inputs(18);\n\n%% Atmospheric calculations"
-      "\nif he > htropo\n    rho_tropo = rho0 * (1+ltrop*(htropo/T0))^(-(g/(R*ltrop))-1);    % Correct\n    T_tropo = T"
-      "0 + (htropo - h0)*ltrop;                             % Correct\n    rho = rho_tropo + rho_tropo * exp(-(g/(R*T_t"
-      "ropo))*(he-htropo));% Correct  \nelse\n    rho = rho0 * (1+ltrop*(he/T0))^(-(g/(R*ltrop))-1);              % Cor"
-      "rect\nend\n\n%% Aerodynamic forces and moment calculations\nCx = (m*anxb) / (0.5*rho*vtas^2*S); L = p_dot*Ixx + "
-      "q*r*(Izz-Iyy) - (p*q + r_dot)*Ixz; % Correct\nCy = (m*anyb) / (0.5*rho*vtas^2*S); M = q_dot*Iyy + r*p*(Ixx-Izz) "
-      "+ (p*p - r*r)*Ixz;   % Correct \nCz = (m*anzb) / (0.5*rho*vtas^2*S); N = r_dot*Izz + p*q*(Iyy-Ixx) + (q*r - p_do"
-      "t)*Ixz; % Correct\n\nCl = L / (0.5*rho*vtas^2*S*b); % Correct\nCm = M / (0.5*rho*vtas^2*S*c); % Correct\nCn = N "
-      "/ (0.5*rho*vtas^2*S*b); % Correct\n\ny1 = Cx;    y4 = Cy;\ny2 = Cz;    y5 = Cl;\ny3 = Cm;    y6 = Cn;\n\n%% Init"
-      "ialize regression matrix\nH_y1 = [1; alpha; alpha^2; (q*c/vtas); de]; % Correct\nH_y2 = [1; alpha; (q*c/vtas); d"
-      "e];          % Correct\nH_y3 = [1; alpha; (q*c/vtas); de];          % Correct\n\nH_y4 = [1; beta; (p*b/2*vtas); "
-      "(r*b/2*vtas); da; de]; \nH_y5 = [1; beta; (p*b/2*vtas); (r*b/2*vtas); da; de];\nH_y6 = [1; beta; (p*b/2*vtas); ("
-      "r*b/2*vtas); da; de];\n\n%% Intialize parameters estimate\np_1 = p_est1;\np_2 = p_est2;\np_3 = p_est3;\np_4 = p_"
-      "est4;\np_5 = p_est5;\np_6 = p_est6;\n\n%% Calculate least square estimate\nL_k1 = P1*H_y1 * inv(H_y1'*P1*H_y1 + "
-      "lambda);\nL_k2 = P2*H_y2 * inv(H_y2'*P2*H_y2 + lambda);\nL_k3 = P3*H_y3 * inv(H_y3'*P3*H_y3 + lambda);\nL_k4 = P"
-      "4*H_y4 * inv(H_y4'*P4*H_y4 + lambda);\nL_k5 = P5*H_y5 * inv(H_y5'*P5*H_y5 + lambda);\nL_k6 = P6*H_y6 * inv(H_y6'"
-      "*P6*H_y6 + lambda);\n\n%% Update parameter\np_k1 = p_1 + L_k1*(y1 - H_y1'*p_1);\np_k2 = p_2 + L_k2*(y2 - H_y2'*p"
-      "_2);\np_k3 = p_3 + L_k3*(y3 - H_y3'*p_3);\np_k4 = p_4 + L_k4*(y4 - H_y4'*p_4);\np_k5 = p_5 + L_k5*(y5 - H_y5'*p_"
-      "5);\np_k6 = p_6 + L_k6*(y6 - H_y6'*p_6);\n\n%% Update covariance matrix\nP_k1 = (eye(5) - L_k1*H_y1')*P1;\nP_k2 "
-      "= (eye(4) - L_k2*H_y2')*P2;\nP_k3 = (eye(4) - L_k3*H_y3')*P3;\nP_k4 = (eye(6) - L_k4*H_y4')*P4;\nP_k5 = (eye(6) "
-      "- L_k5*H_y5')*P5;\nP_k6 = (eye(6) - L_k6*H_y6')*P6;\n\n%% Re-initialize parameters for next time step\np_est1 = "
-      "p_k1  ;    P1 = P_k1;\np_est2 = p_k2;      P2 = P_k2;\np_est3 = p_k3;      P3 = P_k3;\np_est4 = p_k4;      P4 = "
-      "P_k4;\np_est5 = p_k5;      P5 = P_k5;\np_est6 = p_k6;      P6 = P_k6;\n\n%% Output Model\ny_est1 = H_y1'*p_k1;\n"
-      "y_est2 = H_y2'*p_k2;\ny_est3 = H_y3'*p_k3;\ny_est4 = H_y4'*p_k4;\ny_est5 = H_y5'*p_k5;\ny_est6 = H_y6'*p_k6;\n\n"
-      "%% Update Parameters\ny       = [Cx;Cz;Cm;Cy;Cl;Cn];\ny_est   = [y_est1;y_est2;y_est3;y_est4;y_est5;y_est6];\np_"
-      "est   = [p_est1;p_est2;p_est3;p_est4;p_est5;p_est6];\n\n%%------------------------------------------------------"
-      "-------------------\n%% Define Window Size\nwindow = 100;\nInnovation = y - y_est;\n%% Define Aerodynamic Matrix"
-      "\nC_innovation_new = C_innovation(:,2:end);\nC_innovation_new = horzcat(C_innovation_new, Innovation);\n\n%% Cal"
-      "culate the Average of Innovation\navg = (1/window) * sum(C_innovation_new,2);\n\n%% Calculate the Variance\nvar1"
-      " = 1/(window-1) * sum((C_innovation_new(1,:) - avg(1,:)).^2);\nvar2 = 1/(window-1) * sum((C_innovation_new(2,:) "
-      "- avg(2,:)).^2);\nvar3 = 1/(window-1) * sum((C_innovation_new(3,:) - avg(3,:)).^2);\nvar4 = 1/(window-1) * sum(("
-      "C_innovation_new(4,:) - avg(4,:)).^2);\nvar5 = 1/(window-1) * sum((C_innovation_new(5,:) - avg(5,:)).^2);\nvar6 "
-      "= 1/(window-1) * sum((C_innovation_new(6,:) - avg(6,:)).^2);\n\n%% Check for Failure\ncount_failure = 0;\n\nif ("
-      "var1/var_old(1)) > 10\n    count_failure = count_failure + 1;\nend\nif (var2/var_old(2)) > 10\n    count_failure"
-      " = count_failure + 1;\nend\nif (var3/var_old(3)) > 10\n    count_failure = count_failure + 1;\nend\nif (var4/var"
-      "_old(4)) > 10\n    count_failure = count_failure + 1;\nend\nif (var5/var_old(5)) > 10\n    count_failure = count"
-      "_failure + 1;\nend\nif (var6/var_old(6)) > 10\n    count_failure = count_failure + 1;\nend\n\nif count_failure >"
-      " 3\n    trigger = 1;\nelse\n    trigger = 0;\nend\n    \nvar_val = [var1;var2;var3;var4;var5;var6];\nvar_old = ["
-      "var1;var2;var3;var4;var5;var6];\n\n"
+      "\nif he > htropo\n    rho_tropo = rho0 * (1+ltrop*(htropo/T0))^(-(g/(R*ltrop))-1);    \n    T_tropo = T0 + (htro"
+      "po - h0)*ltrop;                             \n    rho = rho_tropo + rho_tropo * exp(-(g/(R*T_tropo))*(he-htropo)"
+      ");\nelse\n    rho = rho0 * (1+ltrop*(he/T0))^(-(g/(R*ltrop))-1);              \nend\n\n%% Aerodynamic forces and"
+      " moment calculations\nCx = (m*anxb) / (0.5*rho*vtas^2*S); L = p_dot*Ixx + q*r*(Izz-Iyy) - (p*q + r_dot)*Ixz; \nC"
+      "y = (m*anyb) / (0.5*rho*vtas^2*S); M = q_dot*Iyy + r*p*(Ixx-Izz) + (p*p - r*r)*Ixz;    \nCz = (m*anzb) / (0.5*rh"
+      "o*vtas^2*S); N = r_dot*Izz + p*q*(Iyy-Ixx) + (q*r - p_dot)*Ixz;\n\nCl = L / (0.5*rho*vtas^2*S*b); \nCm = M / (0."
+      "5*rho*vtas^2*S*c); \nCn = N / (0.5*rho*vtas^2*S*b); \n\ny1 = Cx;    y4 = Cy;\ny2 = Cz;    y5 = Cl;\ny3 = Cm;    "
+      "y6 = Cn;\n\n%% Initialize regression matrix\nH_y1 = [1; alpha; alpha^2; (q*c/vtas); de]; \nH_y2 = [1; alpha; (q*"
+      "c/vtas); de];          \nH_y3 = [1; alpha; (q*c/vtas); de];          \n\nH_y4 = [1; beta; (p*b/2*vtas); (r*b/2*v"
+      "tas); da; de]; \nH_y5 = [1; beta; (p*b/2*vtas); (r*b/2*vtas); da; de];\nH_y6 = [1; beta; (p*b/2*vtas); (r*b/2*vt"
+      "as); da; de];\n\n%% Intialize parameters estimate\np_1 = p_est1;\np_2 = p_est2;\np_3 = p_est3;\np_4 = p_est4;\np"
+      "_5 = p_est5;\np_6 = p_est6;\n\n%% Calculate least square estimate\nL_k1 = P1*H_y1 * inv(H_y1'*P1*H_y1 + lambda);"
+      "\nL_k2 = P2*H_y2 * inv(H_y2'*P2*H_y2 + lambda);\nL_k3 = P3*H_y3 * inv(H_y3'*P3*H_y3 + lambda);\nL_k4 = P4*H_y4 *"
+      " inv(H_y4'*P4*H_y4 + lambda);\nL_k5 = P5*H_y5 * inv(H_y5'*P5*H_y5 + lambda);\nL_k6 = P6*H_y6 * inv(H_y6'*P6*H_y6"
+      " + lambda);\n\n%% Update parameter\np_k1 = p_1 + L_k1*(y1 - H_y1'*p_1);\np_k2 = p_2 + L_k2*(y2 - H_y2'*p_2);\np_"
+      "k3 = p_3 + L_k3*(y3 - H_y3'*p_3);\np_k4 = p_4 + L_k4*(y4 - H_y4'*p_4);\np_k5 = p_5 + L_k5*(y5 - H_y5'*p_5);\np_k"
+      "6 = p_6 + L_k6*(y6 - H_y6'*p_6);\n\n%% Update covariance matrix\nP_k1 = (eye(5) - L_k1*H_y1')*P1;\nP_k2 = (eye(4"
+      ") - L_k2*H_y2')*P2;\nP_k3 = (eye(4) - L_k3*H_y3')*P3;\nP_k4 = (eye(6) - L_k4*H_y4')*P4;\nP_k5 = (eye(6) - L_k5*H"
+      "_y5')*P5;\nP_k6 = (eye(6) - L_k6*H_y6')*P6;\n\n%% Re-initialize parameters for next time step\np_est1 = p_k1  ; "
+      "   P1 = P_k1;\np_est2 = p_k2;      P2 = P_k2;\np_est3 = p_k3;      P3 = P_k3;\np_est4 = p_k4;      P4 = P_k4;\np"
+      "_est5 = p_k5;      P5 = P_k5;\np_est6 = p_k6;      P6 = P_k6;\n\n%% Output Model\ny_est1 = H_y1'*p_k1;\ny_est2 ="
+      " H_y2'*p_k2;\ny_est3 = H_y3'*p_k3;\ny_est4 = H_y4'*p_k4;\ny_est5 = H_y5'*p_k5;\ny_est6 = H_y6'*p_k6;\n\n%% Updat"
+      "e Parameters\ny       = [Cx;Cz;Cm;Cy;Cl;Cn];\ny_est   = [y_est1;y_est2;y_est3;y_est4;y_est5;y_est6];\np_est   = "
+      "[p_est1;p_est2;p_est3;p_est4;p_est5;p_est6];\n\n%% Define Window Size\nwindow = 100;\nInnovation = y - y_est;\n\n"
+      "%% Define Aerodynamic Matrix\nC_innovation_new = C_innovation(:,2:end);\nC_innovation_new = horzcat(C_innovation"
+      "_new, Innovation);\n\n%% Calculate the Average of Innovation\navg = (1/window) * sum(C_innovation_new,2);\n\n%% "
+      "Calculate the Variance\nvar1 = 1/(window-1) * sum((C_innovation_new(1,:) - avg(1,:)).^2);\nvar2 = 1/(window-1) *"
+      " sum((C_innovation_new(2,:) - avg(2,:)).^2);\nvar3 = 1/(window-1) * sum((C_innovation_new(3,:) - avg(3,:)).^2);\n"
+      "var4 = 1/(window-1) * sum((C_innovation_new(4,:) - avg(4,:)).^2);\nvar5 = 1/(window-1) * sum((C_innovation_new(5"
+      ",:) - avg(5,:)).^2);\nvar6 = 1/(window-1) * sum((C_innovation_new(6,:) - avg(6,:)).^2);\n\n%% Check for Failure\n"
+      "count_failure = 0;\n\nif (var1/var_old(1)) > 10\n    count_failure = count_failure + 1;\nend\nif (var2/var_old(2"
+      ")) > 10\n    count_failure = count_failure + 1;\nend\nif (var3/var_old(3)) > 10\n    count_failure = count_failu"
+      "re + 1;\nend\nif (var4/var_old(4)) > 10\n    count_failure = count_failure + 1;\nend\nif (var5/var_old(5)) > 10\n"
+      "    count_failure = count_failure + 1;\nend\nif (var6/var_old(6)) > 10\n    count_failure = count_failure + 1;\n"
+      "end\n\nif count_failure > 3\n    trigger = 1;\nelse\n    trigger = 0;\nend\n    \nvar_val = [var1;var2;var3;var4"
+      ";var5;var6];\nvar_old = [var1;var2;var3;var4;var5;var6];\n\n"
       editorLayout	      "100 M4x1[10 5 700 500]"
     }
   }
@@ -51914,9 +51925,6 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 51 0 0]
     viewObj		    50
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    14
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -52377,9 +52385,6 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 73 0 0]
     viewObj		    72
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    8
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -52587,9 +52592,6 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 83 0 0]
     viewObj		    82
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    7
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -52774,9 +52776,6 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 92 0 0]
     viewObj		    91
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    8
     decomposition	    CLUSTER_CHART
     type		    EML_CHART

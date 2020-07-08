@@ -1,3 +1,11 @@
+%===================================================================
+%       This script shows the aerodynamic identification results
+%       by flying the aircraft in cruise condition and activation
+%       the failure mode. 
+% 
+% Written by: Tommy Tran (4449142)
+%===================================================================
+
 clc;
 clear;
 
@@ -19,7 +27,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$C_X$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 5;
 label1.Position(1) = label_ref1;
-legend('Analytical Data', 'Model Data');
+legend('Analytical Data', 'Model Data', 'location', 'northwest');
 grid on
 
 subplot(322)
@@ -85,7 +93,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$\sigma^2_{C_X}$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 5;
 label1.Position(1) = label_ref1;
-legend('Variance of the Innovation');
+legend('Variance of the Innovation', 'location', 'northwest');
 grid on
 
 subplot(322)
@@ -146,7 +154,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$\mu_{C_X}$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 5;
 label1.Position(1) = label_ref1;
-legend('Moving Average of Square Innovation');
+legend('Moving Average of Square Innovation', 'location', 'northwest');
 grid on
 
 subplot(322)

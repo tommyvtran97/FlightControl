@@ -1,6 +1,10 @@
-%%% Analysis and comparison of the handling qualities with classic and
-%%% fault tolerant flight control (INDI), before and after activation of
-%%% failure
+%===================================================================
+%       This script shows the results between the classical 
+%       and INDI controller by analyzing the handling qualities
+%       and performance with and without failure activation
+% 
+% Written by: Tommy Tran (4449142)
+%===================================================================
 
 clc;
 clear;
@@ -23,7 +27,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$C_Y$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 8;
 label1.Position(1) = label_ref1;
-legend('Classic Unfailed', 'INDI Unfailed')
+legend('Classic Unfailed', 'INDI Unfailed', 'location', 'northwest')
 grid on
 
 subplot(322)
@@ -34,7 +38,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label2 = ylabel('$C_Y$ [-]', 'interpreter', 'latex');
 label_ref2 = label2.Position(1) - 3;
 label2.Position(1) = label_ref2;
-legend('Classic Failed', 'INDI Failed')
+legend('Classic Failed', 'INDI Failed', 'location', 'northwest')
 grid on
 
 subplot(323)
@@ -114,7 +118,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$\sigma^2_{C_Y}$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 13;
 label1.Position(1) = label_ref1;
-legend('Classical Failed')
+legend('Classical Failed', 'location', 'northwest')
 grid on
 
 subplot(322)
@@ -124,7 +128,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label2 = ylabel('$\sigma^2_{C_Y}$ [-]', 'interpreter', 'latex');
 label_ref2 = label2.Position(1) - 13;
 label2.Position(1) = label_ref2;
-legend('INDI Failed')
+legend('INDI Failed', 'location', 'northwest')
 grid on
 
 subplot(323)
@@ -174,14 +178,14 @@ subplot(121)
 plot(trigger_classic_fail(:,1), trigger_classic_fail(:,2))
 xlabel('time [s]', 'interpreter', 'latex')
 ylabel('Reset [-]', 'interpreter', 'latex')
-legend('Classical Failed')
+legend('Classical Failed', 'location', 'northwest')
 grid on;
 
 subplot(122)
 plot(trigger_indi_fail(:,1), trigger_indi_fail(:,2))
 xlabel('time [s]', 'interpreter', 'latex')
 ylabel('Reset [-]', 'interpreter', 'latex')
-legend('INDI Failed')
+legend('INDI Failed', 'location', 'northwest')
 grid on;
 
 if (save)
@@ -203,7 +207,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$C_{Y_{\delta_a}}$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 10;
 label1.Position(1) = label_ref1;
-legend('Classic Unfailed', 'INDI Unfailed')
+legend('Classic Unfailed', 'INDI Unfailed', 'location', 'northwest')
 grid on
 
 subplot(322)
@@ -214,7 +218,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label2 = ylabel('$C_{Y_{\delta_a}}$ [-]', 'interpreter', 'latex');
 label_ref2 = label2.Position(1) - 10;
 label2.Position(1) = label_ref2;
-legend('Classic Failed', 'INDI Failed')
+legend('Classic Failed', 'INDI Failed', 'location', 'northwest')
 grid on
 
 subplot(323)
@@ -273,7 +277,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$p$ [rad/s]','interpreter', 'latex');
 label_ref1 = label1.Position(1) - 10;
 label1.Position(1) = label_ref1;
-legend('Classic Reference Unfailed', 'Classic Signal Unfailed', 'location', 'northeast')
+legend('Classic Reference Unfailed', 'Classic Signal Unfailed', 'location', 'northwest')
 grid on;
 
 subplot(222)
@@ -323,7 +327,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$p$ [rad/s]','interpreter', 'latex');
 label_ref1 = label1.Position(1) - 10;
 label1.Position(1) = label_ref1;
-legend('INDI Reference Unfailed', 'INDI Signal Unfailed', 'location', 'northeast')
+legend('INDI Reference Unfailed', 'INDI Signal Unfailed', 'location', 'northwest')
 grid on;
 
 subplot(222)
@@ -373,7 +377,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$p$ [rad/s]','interpreter', 'latex');
 label_ref1 = label1.Position(1) - 20;
 label1.Position(1) = label_ref1;
-legend('Classic Reference Failed', 'Classic Signal Failed', 'location', 'northeast')
+legend('Classic Reference Failed', 'Classic Signal Failed', 'location', 'northwest')
 grid on;
 
 subplot(222)
@@ -423,7 +427,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$p$ [rad/s]','interpreter', 'latex');
 label_ref1 = label1.Position(1) - 20;
 label1.Position(1) = label_ref1;
-legend('INDI Reference Failed', 'INDI Signal Failed', 'location', 'northeast')
+legend('INDI Reference Failed', 'INDI Signal Failed', 'location', 'northwest')
 grid on;
 
 subplot(222)

@@ -1,3 +1,11 @@
+%===================================================================
+%       This script shows the results of the aerodynamic parameters
+%       by changing the forgetting factor in increments of 0.2
+%       starting from 1 and descending.
+% 
+% Written by: Tommy Tran (4449142)
+%===================================================================
+
 clc;
 clear;
 
@@ -16,7 +24,7 @@ xlabel('time [s]', 'interpreter', 'latex')
 label1 = ylabel('$\epsilon_{C_{X}}$ [-]', 'interpreter', 'latex');
 label_ref1 = label1.Position(1) - 0.03;
 label1.Position(1) = label_ref1;
-legend('$\lambda$ = 1','$\lambda$ = 0.8','$\lambda$ = 0.6','$\lambda$ = 0.4','$\lambda$ = 0.2', 'northeast','interpreter','latex')
+legend('$\lambda$ = 1','$\lambda$ = 0.8','$\lambda$ = 0.6','$\lambda$ = 0.4','$\lambda$ = 0.2', 'northeast','interpreter','latex', 'location', 'northwest')
 grid on;
 
 subplot(322)
