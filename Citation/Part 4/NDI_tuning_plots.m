@@ -12,7 +12,7 @@ clear;
 load('Data/INDI_tuning_response.mat');
 load('Data/ANDI_tuning_response.mat');
 
-save = 0;
+save = 1;
 
 %% Present Results PI Tuning INDI and ANDI
 %% ------------------------------------------------------------------------
@@ -56,7 +56,7 @@ grid on
 plot(t, step_input, 'b--')
 plot(t, beta_andi_input)
 xlabel('time [s]', 'interpreter', 'latex')
-label2 = ylabel('$\beta$ $[\frac{rad}{s}$]',  'interpreter', 'latex');
+label2 = ylabel('$\beta$ [$rad$]',  'interpreter', 'latex');
 label2.Position(1) = label_ref2;
 
 if (save)
@@ -106,7 +106,7 @@ grid on
 plot(t, step_input, 'b--')
 plot(t, beta_indi_input)
 xlabel('time [s]', 'interpreter', 'latex')
-label2 = ylabel('$\beta$ $[\frac{rad}{s}$]',  'interpreter', 'latex');
+label2 = ylabel('$\beta$ [$rad$]',  'interpreter', 'latex');
 label2.Position(1) = label_ref2;
 
 if (save)

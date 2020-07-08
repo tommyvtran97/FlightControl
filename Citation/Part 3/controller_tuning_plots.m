@@ -10,7 +10,7 @@ clc;
 clear;
 
 load('Data/classic_tuning_response.mat');
-save = 0;
+save = 1;
 
 %% Present Result PI Tuning Classical Controller
 %% -------------------------------------------------------------------------
@@ -45,7 +45,7 @@ grid on
 plot(t, step_input, 'b--')
 plot(t, r_input)
 xlabel('time [s]', 'interpreter', 'latex')
-label1 = ylabel('$r$ $[\frac{rad}{s}$]',  'interpreter', 'latex');
+label1 = ylabel('$r$ [$\frac{rad}{s}$]',  'interpreter', 'latex');
 label1.Position(1) = label_ref1;
 
 subplot(224)
@@ -54,7 +54,7 @@ grid on
 plot(t, step_input, 'b--')
 plot(t, beta_input)
 xlabel('time [s]', 'interpreter', 'latex')
-label2 = ylabel('$\beta$ $[\frac{rad}{s}$]',  'interpreter', 'latex');
+label2 = ylabel('$\beta$ [$rad$]',  'interpreter', 'latex');
 label2.Position(1) = label_ref2;
 
 if (save)
