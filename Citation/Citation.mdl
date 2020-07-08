@@ -12,7 +12,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.969"
+    ComputedModelVersion    "1.970"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -157,15 +157,26 @@ Model {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1956"
 	  Extents		  [1402.0, 629.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-113.22999864646519, 442.99890434250756]
-	  SceneRectInView	  [-113.22999864646519, 442.99890434250756, 1402.0, 629.0]
+	  ZoomFactor		  [0.93119022316684386]
+	  Offset		  [-44.229911302948949, -31.023769954221962]
+	  SceneRectInView	  [-44.229911302948949, -31.023769954221962, 1505.6, 675.47960057061334]
 	}
 	Object {
 	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1402.0, 629.0]
+	  ZoomFactor		  [0.5]
+	  Offset		  [-543.796665313132, -183.78911558296542]
+	  SceneRectInView	  [-543.796665313132, -183.78911558296542, 2804.0, 1258.0]
+	}
+	Object {
+	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -176,7 +187,7 @@ Model {
 	  SceneRectInView	  [-97.791690362109421, 34.899329143340083, 934.66666666666663, 419.33333333333331]
 	}
 	Object {
-	  $ObjectID		  7
+	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -187,7 +198,7 @@ Model {
 	  SceneRectInView	  [-397.49877564133789, -371.09985832362133, 1505.6, 675.47960057061334]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -198,7 +209,7 @@ Model {
 	  SceneRectInView	  [-487.04400205288943, -426.40355253761743, 1505.6, 675.47960057061334]
 	}
 	Object {
-	  $ObjectID		  9
+	  $ObjectID		  10
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -207,17 +218,6 @@ Model {
 	  ZoomFactor		  [1.5]
 	  Offset		  [-166.99739583333331, -52.833333333333314]
 	  SceneRectInView	  [-166.99739583333331, -52.833333333333314, 934.66666666666663, 419.33333333333331]
-	}
-	Object {
-	  $ObjectID		  10
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1956"
-	  Extents		  [1402.0, 629.0]
-	  ZoomFactor		  [0.93119022316684386]
-	  Offset		  [-44.229911302948949, -31.023769954221962]
-	  SceneRectInView	  [-44.229911302948949, -31.023769954221962, 1505.6, 675.47960057061334]
 	}
 	Object {
 	  $ObjectID		  11
@@ -560,9 +560,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "tran"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Jul 08 19:52:52 2020"
-  RTWModifiedTimeStamp	  516138726
-  ModelVersionFormat	  "1.%<AutoIncrement:969>"
+  LastModifiedDate	  "Wed Jul 08 21:29:00 2020"
+  RTWModifiedTimeStamp	  516144539
+  ModelVersionFormat	  "1.%<AutoIncrement:970>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1828,7 +1828,7 @@ Model {
   System {
     Name		    "Citation"
     Location		    [0, 23, 1440, 851]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1842,7 +1842,7 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "100"
+    ZoomFactor		    "50"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "2613"
     SimulinkSubDomain	    "Simulink"
@@ -48910,7 +48910,6 @@ Model {
       ZOrder		      60
       BlockMirror	      on
       NameLocation	      "top"
-      CurrentSetting	      "0"
     }
     Block {
       BlockType		      ManualSwitch
@@ -48920,6 +48919,7 @@ Model {
       ZOrder		      76
       BlockMirror	      on
       NameLocation	      "top"
+      CurrentSetting	      "0"
     }
     Block {
       BlockType		      Mux
@@ -48993,7 +48993,7 @@ Model {
 	  System {
 	    Name		    "Joystick"
 	    Location		    [0, 23, 1440, 851]
-	    Open		    off
+	    Open		    on
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -49301,7 +49301,7 @@ Model {
 	      ZOrder		      2
 	      InputPortWidth	      "6"
 	      IndexOptions	      "Index vector (dialog)"
-	      Indices		      "[3 4 1 2]"
+	      Indices		      "[3 6 1 2]"
 	      OutputSizes	      "1"
 	    }
 	    Block {
@@ -52382,9 +52382,6 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 73 0 0]
     viewObj		    72
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    8
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -52776,9 +52773,6 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 92 0 0]
     viewObj		    91
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    8
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
