@@ -1,1 +1,3 @@
 # Fault Tolerant Flight Control using Model and Sensor based Nonlinear Dynamic Inversion
+
+The Incremental Nonlinear Dynamic Inversion (INDI) and Adaptive Nonlinear Dynamic Inversion (ANDI) controllers are proposed. Both controllers will be compared with the classical controller. The analysis is performed by flying the aircraft with the provided Cessna Citation simulation model with different controllers in a certain trajectory with and without the activation of failure, in this case an aileron hardover. The handling qualities of the aircraft and the performance of the controllers are then analyzed.
